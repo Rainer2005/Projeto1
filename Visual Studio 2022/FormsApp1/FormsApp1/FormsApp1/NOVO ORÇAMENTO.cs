@@ -1,4 +1,5 @@
-﻿using System;
+﻿using controle;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,13 @@ namespace FormsApp1
 
         private void NOVO_ORÇAMENTO_Load(object sender, EventArgs e)
         {
-
+            cliente_controle con = new cliente_controle();
+            TAMANHO.DataSource = con.obterdados("select *from tamanho");
+            TAMANHO.ValueMember = "ID_TAMANHO";
+            TAMANHO.DisplayMember = "TAMANHO";
+            SERV_ORCAMENTO.DataSource = con.obterdados("select *from serviço ");
+            SERV_ORCAMENTO.ValueMember = "ID_SERVICO";
+            SERV_ORCAMENTO.DisplayMember = "SERVICO";
         }
     }
 }

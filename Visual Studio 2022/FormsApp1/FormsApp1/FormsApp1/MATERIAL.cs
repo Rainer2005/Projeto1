@@ -1,4 +1,5 @@
-﻿using System;
+﻿using controle;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,12 +8,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using modelo;
+
 
 namespace FormsApp1
 {
-    public partial class MATERIAL : Form
+    public partial class FRM_SERVICO : Form
     {
-        public MATERIAL()
+        public FRM_SERVICO()
         {
             InitializeComponent();
         }
@@ -23,6 +26,21 @@ namespace FormsApp1
         }
 
         private void MATERIAL_Load(object sender, EventArgs e)
+        {
+            cliente_controle con = new cliente_controle();
+            SERVICO.DataSource = con.obterdados("select *from serviço ");
+            SERVICO.ValueMember = "ID_SERVICO";
+            SERVICO.DisplayMember = "SERVICO";
+
+            
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

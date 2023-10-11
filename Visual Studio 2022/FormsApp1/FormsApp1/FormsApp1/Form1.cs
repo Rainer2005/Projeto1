@@ -39,7 +39,7 @@ namespace FormsApp1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            MATERIAL MTR = new MATERIAL();
+            FRM_SERVICO MTR = new FRM_SERVICO();
             MTR.ShowDialog();
         }
 

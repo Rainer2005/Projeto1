@@ -22,3 +22,15 @@ C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\refint\modelo.dll
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.pdb
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\ref\modelo.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\bin\Debug\net6.0\modelo.deps.json
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\bin\Debug\net6.0\modelo.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\bin\Debug\net6.0\modelo.pdb
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\refint\modelo.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\modelo.pdb
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\modelo\obj\Debug\net6.0\ref\modelo.dll

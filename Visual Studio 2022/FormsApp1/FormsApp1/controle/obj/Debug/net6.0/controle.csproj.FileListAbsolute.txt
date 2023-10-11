@@ -25,3 +25,18 @@ C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\modelo.dll
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\modelo.pdb
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.csproj.CopyComplete
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\controle.deps.json
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\controle.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\controle.pdb
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\modelo.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\bin\Debug\net6.0\modelo.pdb
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.csproj.CopyComplete
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\refint\controle.dll
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\controle.pdb
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\controle\obj\Debug\net6.0\ref\controle.dll
