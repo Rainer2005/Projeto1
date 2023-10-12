@@ -28,5 +28,13 @@ namespace FormsApp1
             SERV_ORCAMENTO.ValueMember = "ID_SERVICO";
             SERV_ORCAMENTO.DisplayMember = "SERVICO";
         }
+
+        private void SERV_ORCAMENTO_SelectedIndexChanged(object sender, EventArgs e)
+        {
+         //   if (SERV_ORCAMENTO ==  null)
+         //  {
+         //       
+         //   }
+        }
     }
 }

@@ -25,12 +25,6 @@ namespace FormsApp1
             AGN.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MAO_DE_OBRA OBRA = new MAO_DE_OBRA();
-            OBRA.ShowDialog();
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             CLIENTE CLI = new CLIENTE();
@@ -53,6 +47,11 @@ namespace FormsApp1
         {
             consultar_orçamento orc = new consultar_orçamento();
             orc.ShowDialog();   
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

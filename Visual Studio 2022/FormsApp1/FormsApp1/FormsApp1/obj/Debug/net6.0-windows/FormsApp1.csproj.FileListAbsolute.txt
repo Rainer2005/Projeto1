@@ -82,7 +82,6 @@ C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.CONSULTAR_AGENDA.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.consultar_orçamento.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.Form1.resources
-C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.MAO_DE_OBRA.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.NOVO_ORÇAMENTO.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.ORÇAMENTO_SIMPLES.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.Properties.Resources.resources

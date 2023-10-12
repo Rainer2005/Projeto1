@@ -34,9 +34,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.novo_orçamento3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.CAD_SERVICO = new System.Windows.Forms.Button();
+            this.CAD_CLIENTE = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -59,7 +58,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.DarkGray;
+            this.tabPage1.BackColor = System.Drawing.Color.White;
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.novo_orçamento3);
@@ -72,80 +71,76 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(301, 6);
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.button5.Location = new System.Drawing.Point(42, 161);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(129, 56);
+            this.button5.Size = new System.Drawing.Size(190, 42);
             this.button5.TabIndex = 2;
             this.button5.Text = "AGENDAR";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(152, 6);
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(42, 99);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(143, 56);
+            this.button4.Size = new System.Drawing.Size(190, 45);
             this.button4.TabIndex = 1;
             this.button4.Text = "ORÇAMENTO SIMPLES";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // novo_orçamento3
             // 
-            this.novo_orçamento3.Location = new System.Drawing.Point(6, 6);
+            this.novo_orçamento3.BackColor = System.Drawing.Color.White;
+            this.novo_orçamento3.Location = new System.Drawing.Point(42, 38);
             this.novo_orçamento3.Name = "novo_orçamento3";
-            this.novo_orçamento3.Size = new System.Drawing.Size(140, 56);
+            this.novo_orçamento3.Size = new System.Drawing.Size(190, 46);
             this.novo_orçamento3.TabIndex = 0;
             this.novo_orçamento3.Text = "NOVO ORÇAMENTO";
-            this.novo_orçamento3.UseVisualStyleBackColor = true;
+            this.novo_orçamento3.UseVisualStyleBackColor = false;
             this.novo_orçamento3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.DarkGray;
-            this.tabPage2.Controls.Add(this.button8);
-            this.tabPage2.Controls.Add(this.button2);
-            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.BackColor = System.Drawing.Color.White;
+            this.tabPage2.Controls.Add(this.CAD_SERVICO);
+            this.tabPage2.Controls.Add(this.CAD_CLIENTE);
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(638, 404);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "CADASTRAR";
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
-            // button8
+            // CAD_SERVICO
             // 
-            this.button8.Location = new System.Drawing.Point(296, 6);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(138, 47);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "MATERIAL";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.CAD_SERVICO.BackColor = System.Drawing.Color.White;
+            this.CAD_SERVICO.Location = new System.Drawing.Point(27, 31);
+            this.CAD_SERVICO.Name = "CAD_SERVICO";
+            this.CAD_SERVICO.Size = new System.Drawing.Size(207, 47);
+            this.CAD_SERVICO.TabIndex = 2;
+            this.CAD_SERVICO.Text = "SERVIÇO";
+            this.CAD_SERVICO.UseVisualStyleBackColor = false;
+            this.CAD_SERVICO.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button2
+            // CAD_CLIENTE
             // 
-            this.button2.Location = new System.Drawing.Point(150, 6);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 47);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "CLIENTE";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(8, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 47);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "MÃO DE OBRA";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.CAD_CLIENTE.BackColor = System.Drawing.Color.White;
+            this.CAD_CLIENTE.Location = new System.Drawing.Point(27, 98);
+            this.CAD_CLIENTE.Name = "CAD_CLIENTE";
+            this.CAD_CLIENTE.Size = new System.Drawing.Size(207, 48);
+            this.CAD_CLIENTE.TabIndex = 1;
+            this.CAD_CLIENTE.Text = "CLIENTE";
+            this.CAD_CLIENTE.UseVisualStyleBackColor = false;
+            this.CAD_CLIENTE.Click += new System.EventHandler(this.button2_Click);
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.DarkGray;
+            this.tabPage3.BackColor = System.Drawing.Color.White;
             this.tabPage3.Controls.Add(this.button7);
             this.tabPage3.Controls.Add(this.button6);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
@@ -157,22 +152,24 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(152, 6);
+            this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(32, 99);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(143, 57);
+            this.button7.Size = new System.Drawing.Size(208, 44);
             this.button7.TabIndex = 1;
             this.button7.Text = "ORÇAMENTOS";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(8, 6);
+            this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(32, 38);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(138, 57);
+            this.button6.Size = new System.Drawing.Size(208, 45);
             this.button6.TabIndex = 0;
             this.button6.Text = "AGENDA";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // Form1
@@ -199,9 +196,8 @@
         private Button button4;
         private Button novo_orçamento3;
         private TabPage tabPage2;
-        private Button button8;
-        private Button button2;
-        private Button button1;
+        private Button CAD_SERVICO;
+        private Button CAD_CLIENTE;
         private TabPage tabPage3;
         private Button button7;
         private Button button6;

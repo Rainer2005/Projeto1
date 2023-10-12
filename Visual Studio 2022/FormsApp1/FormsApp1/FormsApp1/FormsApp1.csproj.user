@@ -16,9 +16,6 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MAO_DE_OBRA.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="MATERIAL.cs">
       <SubType>Form</SubType>
     </Compile>
