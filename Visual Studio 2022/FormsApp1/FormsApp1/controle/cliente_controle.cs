@@ -67,9 +67,9 @@ namespace controle
             command.Parameters.AddWithValue("@telefone", us.telefone);
             command.Parameters.AddWithValue("@endereco", us.endereco);
             command.Parameters.AddWithValue("@id", us.idusuario);
-            if (command.ExecuteNonQuery() >= 1)
-                resultado = true;
-            sqlcon.Close();
+            if (command.ExecuteNonQuery() >= 1)           
+                 resultado = true;                
+             sqlcon.Close();                         
             return resultado;
         }
     }

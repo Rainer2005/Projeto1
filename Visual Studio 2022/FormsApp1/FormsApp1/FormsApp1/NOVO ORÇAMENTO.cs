@@ -31,10 +31,27 @@ namespace FormsApp1
 
         private void SERV_ORCAMENTO_SelectedIndexChanged(object sender, EventArgs e)
         {
-         //   if (SERV_ORCAMENTO ==  null)
-         //  {
-         //       
-         //   }
+             if(SERV_ORCAMENTO != null)
+            {
+               
+            }
+        
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result_m2_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void comprimento_m2_TextChanged(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }
