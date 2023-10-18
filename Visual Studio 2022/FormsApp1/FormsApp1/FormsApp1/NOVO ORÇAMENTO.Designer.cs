@@ -32,7 +32,6 @@
             this.SERV_ORCAMENTO = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.TAMANHO = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -53,12 +52,18 @@
             this.label10 = new System.Windows.Forms.Label();
             this.comprimento_m2 = new System.Windows.Forms.TextBox();
             this.largura_m2 = new System.Windows.Forms.TextBox();
-            this.result_m2 = new System.Windows.Forms.TextBox();
+            this.txtresult_m2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.resultado_m2 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.larg_porcelanato = new System.Windows.Forms.TextBox();
+            this.alt_porcelanato = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.quant_porcelanato = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -100,15 +105,6 @@
             this.textBox1.Size = new System.Drawing.Size(121, 23);
             this.textBox1.TabIndex = 4;
             // 
-            // TAMANHO
-            // 
-            this.TAMANHO.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TAMANHO.FormattingEnabled = true;
-            this.TAMANHO.Location = new System.Drawing.Point(165, 123);
-            this.TAMANHO.Name = "TAMANHO";
-            this.TAMANHO.Size = new System.Drawing.Size(148, 23);
-            this.TAMANHO.TabIndex = 7;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -116,9 +112,9 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(12, 126);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 15);
+            this.label3.Size = new System.Drawing.Size(115, 15);
             this.label3.TabIndex = 8;
-            this.label3.Text = "SELECIONE O TAMANHO";
+            this.label3.Text = "DIGITE O TAMANHO";
             // 
             // label4
             // 
@@ -138,6 +134,8 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(65, 23);
             this.textBox2.TabIndex = 10;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label5
             // 
@@ -320,14 +318,16 @@
             this.largura_m2.Name = "largura_m2";
             this.largura_m2.Size = new System.Drawing.Size(65, 23);
             this.largura_m2.TabIndex = 29;
+            this.largura_m2.TextChanged += new System.EventHandler(this.largura_m2_TextChanged);
+            this.largura_m2.Leave += new System.EventHandler(this.largura_m2_Leave);
             // 
-            // result_m2
+            // txtresult_m2
             // 
-            this.result_m2.Location = new System.Drawing.Point(634, 130);
-            this.result_m2.Name = "result_m2";
-            this.result_m2.Size = new System.Drawing.Size(65, 23);
-            this.result_m2.TabIndex = 30;
-            this.result_m2.TextChanged += new System.EventHandler(this.result_m2_TextChanged);
+            this.txtresult_m2.Location = new System.Drawing.Point(634, 130);
+            this.txtresult_m2.Name = "txtresult_m2";
+            this.txtresult_m2.Size = new System.Drawing.Size(65, 23);
+            this.txtresult_m2.TabIndex = 30;
+            this.txtresult_m2.TextChanged += new System.EventHandler(this.result_m2_TextChanged);
             // 
             // label11
             // 
@@ -384,17 +384,75 @@
             this.radioButton1.Text = "ACI";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // larg_porcelanato
+            // 
+            this.larg_porcelanato.Location = new System.Drawing.Point(190, 123);
+            this.larg_porcelanato.Name = "larg_porcelanato";
+            this.larg_porcelanato.Size = new System.Drawing.Size(31, 23);
+            this.larg_porcelanato.TabIndex = 33;
+            this.larg_porcelanato.TextChanged += new System.EventHandler(this.larg_porcelanato_TextChanged);
+            // 
+            // alt_porcelanato
+            // 
+            this.alt_porcelanato.Location = new System.Drawing.Point(133, 124);
+            this.alt_porcelanato.Name = "alt_porcelanato";
+            this.alt_porcelanato.Size = new System.Drawing.Size(31, 23);
+            this.alt_porcelanato.TabIndex = 34;
+            this.alt_porcelanato.TextChanged += new System.EventHandler(this.alt_porcelanato_TextChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(170, 127);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(14, 15);
+            this.label14.TabIndex = 35;
+            this.label14.Text = "X";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(226, 127);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(132, 15);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Altura X Largura em cm";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(12, 396);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(135, 15);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "QUANTIDADE DE PEÇAS";
+            // 
+            // quant_porcelanato
+            // 
+            this.quant_porcelanato.Location = new System.Drawing.Point(163, 393);
+            this.quant_porcelanato.Name = "quant_porcelanato";
+            this.quant_porcelanato.Size = new System.Drawing.Size(106, 23);
+            this.quant_porcelanato.TabIndex = 38;
+            this.quant_porcelanato.TextChanged += new System.EventHandler(this.quant_porcelanato_TextChanged);
+            this.quant_porcelanato.Leave += new System.EventHandler(this.result_m2_TextChanged);
+            // 
             // NOVO_ORÇAMENTO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.quant_porcelanato);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.alt_porcelanato);
+            this.Controls.Add(this.larg_porcelanato);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.resultado_m2);
             this.Controls.Add(this.comprimento_m2);
             this.Controls.Add(this.largura_m2);
-            this.Controls.Add(this.result_m2);
+            this.Controls.Add(this.txtresult_m2);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -416,7 +474,6 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.TAMANHO);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.SERV_ORCAMENTO);
@@ -437,7 +494,6 @@
         private ComboBox SERV_ORCAMENTO;
         private Label label2;
         private TextBox textBox1;
-        private ComboBox TAMANHO;
         private Label label3;
         private Label label4;
         private TextBox textBox2;
@@ -458,11 +514,17 @@
         private Label label10;
         private TextBox comprimento_m2;
         private TextBox largura_m2;
-        private TextBox result_m2;
+        private TextBox txtresult_m2;
         private Label label11;
         private Label label12;
         private Label label13;
         private Label resultado_m2;
         private RadioButton radioButton1;
+        private TextBox larg_porcelanato;
+        private TextBox alt_porcelanato;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private TextBox quant_porcelanato;
     }
 }

@@ -32,7 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SERVICO = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.valor_m2 = new System.Windows.Forms.TextBox();
+            this.editar_servico = new System.Windows.Forms.Button();
+            this.salvar_servico = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,13 +68,34 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "QUAL O VALOR POR M²";
             // 
-            // textBox1
+            // valor_m2
             // 
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox1.Location = new System.Drawing.Point(211, 154);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(86, 23);
-            this.textBox1.TabIndex = 10;
+            this.valor_m2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.valor_m2.Location = new System.Drawing.Point(211, 154);
+            this.valor_m2.Name = "valor_m2";
+            this.valor_m2.Size = new System.Drawing.Size(86, 23);
+            this.valor_m2.TabIndex = 10;
+            // 
+            // editar_servico
+            // 
+            this.editar_servico.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.editar_servico.Location = new System.Drawing.Point(565, 440);
+            this.editar_servico.Name = "editar_servico";
+            this.editar_servico.Size = new System.Drawing.Size(113, 28);
+            this.editar_servico.TabIndex = 11;
+            this.editar_servico.Text = "EDITAR";
+            this.editar_servico.UseVisualStyleBackColor = false;
+            // 
+            // salvar_servico
+            // 
+            this.salvar_servico.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.salvar_servico.Location = new System.Drawing.Point(693, 440);
+            this.salvar_servico.Name = "salvar_servico";
+            this.salvar_servico.Size = new System.Drawing.Size(113, 28);
+            this.salvar_servico.TabIndex = 12;
+            this.salvar_servico.Text = "SALVAR";
+            this.salvar_servico.UseVisualStyleBackColor = false;
+            this.salvar_servico.Click += new System.EventHandler(this.salvar_servico_Click);
             // 
             // FRM_SERVICO
             // 
@@ -80,7 +103,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(818, 485);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.salvar_servico);
+            this.Controls.Add(this.editar_servico);
+            this.Controls.Add(this.valor_m2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.SERVICO);
             this.Controls.Add(this.label1);
@@ -98,6 +123,8 @@
         private Label label1;
         private ComboBox SERVICO;
         private Label label5;
-        private TextBox textBox1;
+        private TextBox valor_m2;
+        private Button editar_servico;
+        private Button salvar_servico;
     }
 }
