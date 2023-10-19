@@ -63,7 +63,16 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.quant_porcelanato = new System.Windows.Forms.TextBox();
+            this.txtquant_porcelanato = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.rejunte_largura = new System.Windows.Forms.TextBox();
+            this.rejunte_profundidade = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.rejunte_expessura = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -164,7 +173,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(12, 283);
+            this.label7.Location = new System.Drawing.Point(611, 207);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 15);
             this.label7.TabIndex = 14;
@@ -172,10 +181,11 @@
             // 
             // REJUNTE
             // 
-            this.REJUNTE.Location = new System.Drawing.Point(76, 280);
+            this.REJUNTE.Location = new System.Drawing.Point(675, 203);
             this.REJUNTE.Name = "REJUNTE";
-            this.REJUNTE.Size = new System.Drawing.Size(121, 23);
+            this.REJUNTE.Size = new System.Drawing.Size(45, 23);
             this.REJUNTE.TabIndex = 15;
+            this.REJUNTE.TextChanged += new System.EventHandler(this.REJUNTE_TextChanged);
             // 
             // ACII
             // 
@@ -260,7 +270,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(12, 322);
+            this.label8.Location = new System.Drawing.Point(552, 235);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(112, 15);
             this.label8.TabIndex = 23;
@@ -268,9 +278,9 @@
             // 
             // ARG_TOTAL
             // 
-            this.ARG_TOTAL.Location = new System.Drawing.Point(130, 319);
+            this.ARG_TOTAL.Location = new System.Drawing.Point(675, 232);
             this.ARG_TOTAL.Name = "ARG_TOTAL";
-            this.ARG_TOTAL.Size = new System.Drawing.Size(126, 23);
+            this.ARG_TOTAL.Size = new System.Drawing.Size(45, 23);
             this.ARG_TOTAL.TabIndex = 24;
             // 
             // label9
@@ -278,7 +288,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(12, 360);
+            this.label9.Location = new System.Drawing.Point(547, 264);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(117, 15);
             this.label9.TabIndex = 25;
@@ -286,9 +296,9 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(148, 357);
+            this.textBox3.Location = new System.Drawing.Point(675, 261);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 23);
+            this.textBox3.Size = new System.Drawing.Size(45, 23);
             this.textBox3.TabIndex = 26;
             // 
             // label10
@@ -421,20 +431,98 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(12, 396);
+            this.label16.Location = new System.Drawing.Point(526, 293);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(135, 15);
             this.label16.TabIndex = 37;
             this.label16.Text = "QUANTIDADE DE PEÇAS";
             // 
-            // quant_porcelanato
+            // txtquant_porcelanato
             // 
-            this.quant_porcelanato.Location = new System.Drawing.Point(163, 393);
-            this.quant_porcelanato.Name = "quant_porcelanato";
-            this.quant_porcelanato.Size = new System.Drawing.Size(106, 23);
-            this.quant_porcelanato.TabIndex = 38;
-            this.quant_porcelanato.TextChanged += new System.EventHandler(this.quant_porcelanato_TextChanged);
-            this.quant_porcelanato.Leave += new System.EventHandler(this.result_m2_TextChanged);
+            this.txtquant_porcelanato.Location = new System.Drawing.Point(675, 290);
+            this.txtquant_porcelanato.Name = "txtquant_porcelanato";
+            this.txtquant_porcelanato.Size = new System.Drawing.Size(45, 23);
+            this.txtquant_porcelanato.TabIndex = 38;
+            this.txtquant_porcelanato.TextChanged += new System.EventHandler(this.quant_porcelanato_TextChanged);
+            this.txtquant_porcelanato.Leave += new System.EventHandler(this.result_m2_TextChanged);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(12, 317);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(115, 15);
+            this.label17.TabIndex = 39;
+            this.label17.Text = "LARGURA DA JUNTA";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(12, 348);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(150, 15);
+            this.label18.TabIndex = 40;
+            this.label18.Text = "PROFUNDIDADE DA JUNTA";
+            // 
+            // rejunte_largura
+            // 
+            this.rejunte_largura.Location = new System.Drawing.Point(133, 314);
+            this.rejunte_largura.Name = "rejunte_largura";
+            this.rejunte_largura.Size = new System.Drawing.Size(59, 23);
+            this.rejunte_largura.TabIndex = 41;
+            this.rejunte_largura.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // rejunte_profundidade
+            // 
+            this.rejunte_profundidade.Location = new System.Drawing.Point(168, 345);
+            this.rejunte_profundidade.Name = "rejunte_profundidade";
+            this.rejunte_profundidade.Size = new System.Drawing.Size(53, 23);
+            this.rejunte_profundidade.TabIndex = 42;
+            this.rejunte_profundidade.TextChanged += new System.EventHandler(this.rejunte_profundidade_TextChanged);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(198, 317);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(92, 15);
+            this.label19.TabIndex = 43;
+            this.label19.Text = "Largura em mm";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(227, 348);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(124, 15);
+            this.label20.TabIndex = 44;
+            this.label20.Text = "Profundidade em mm";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(12, 282);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(119, 15);
+            this.label21.TabIndex = 45;
+            this.label21.Text = "EXPESSURA DA PEÇA";
+            // 
+            // rejunte_expessura
+            // 
+            this.rejunte_expessura.Location = new System.Drawing.Point(137, 279);
+            this.rejunte_expessura.Name = "rejunte_expessura";
+            this.rejunte_expessura.Size = new System.Drawing.Size(60, 23);
+            this.rejunte_expessura.TabIndex = 46;
+            this.rejunte_expessura.TextChanged += new System.EventHandler(this.rejunte_expessura_TextChanged);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(203, 282);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(104, 15);
+            this.label22.TabIndex = 47;
+            this.label22.Text = "Expessura em mm";
             // 
             // NOVO_ORÇAMENTO
             // 
@@ -442,7 +530,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.quant_porcelanato);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.rejunte_expessura);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.rejunte_profundidade);
+            this.Controls.Add(this.rejunte_largura);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.txtquant_porcelanato);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -525,6 +622,15 @@
         private Label label14;
         private Label label15;
         private Label label16;
-        private TextBox quant_porcelanato;
+        private TextBox txtquant_porcelanato;
+        private Label label17;
+        private Label label18;
+        private TextBox rejunte_largura;
+        private TextBox rejunte_profundidade;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private TextBox rejunte_expessura;
+        private Label label22;
     }
 }

@@ -13,8 +13,18 @@ namespace FormsApp1
 {
     public partial class NOVO_ORÇAMENTO : Form
     {
-        int compri = 0, larg = 0, result = 0;
-        int alt = 0, comp = 0, alt1 = 0, larg1 = 0,m_porcelanato = 0;
+        int compri = 0, larg = 0;
+        float result = 0 ;
+        int alt = 0, larg_porc = 0 ;
+        float larg1 = 0, altura = 0,m_porcelanato = 0;
+        float cem = 100, dez = 10;
+        float rejunte_alt = 0, rejunte_larg = 0, rejunte_v = 0, rejunte_m = 0;
+        float expessura = 0, largura_junta = 0, profundidade = 0, rejunte_result = 0; 
+        double rejunte_cr = 1.62;
+        float rejunte_total = 0;
+
+
+
 
         public NOVO_ORÇAMENTO()
         {
@@ -38,9 +48,30 @@ namespace FormsApp1
         
         }
 
+        private void REJUNTE_TextChanged(object sender, EventArgs e)
+        {
+            rejunte_larg = larg_porc * dez; // converte em mm
+            rejunte_alt = alt * dez; // converte em mm
+            rejunte_m = rejunte_larg + rejunte_alt; // A + B (largura + altura em mm)
+            rejunte_v = rejunte_alt * rejunte_larg; // A * B (largura * altura em mm)
+
+            rejunte_total = rejunte_m * rejunte_expessura * rejunte_profundidade * rejunte_cr;
+            rejunte_result = rejunte_total / rejunte_v; 
+        }
+
+        private void rejunte_profundidade_TextChanged(object sender, EventArgs e)
+        {
+            profundidade = int.Parse(rejunte_profundidade.Text);
+        }
+
         private void largura_m2_TextChanged(object sender, EventArgs e)
         {
             larg = int.Parse(largura_m2.Text);
+        }
+
+        private void rejunte_expessura_TextChanged(object sender, EventArgs e)
+        {
+            expessura = int.Parse(rejunte_expessura.Text);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -50,28 +81,35 @@ namespace FormsApp1
 
         private void largura_m2_Leave(object sender, EventArgs e)
         {
-            result = (compri * larg);
+             result = (compri * larg);
+          // result = m_porcelanato; // teste 
             txtresult_m2.Text = Convert.ToString(result);
             textBox2.Text = Convert.ToString(result);
-           
+             
         }
 
         private void quant_porcelanato_TextChanged(object sender, EventArgs e)
         {
-            m_porcelanato = alt1 * larg1; //m² da peça de porcelanato
-           quant_porcelanato.Text = Convert.ToString (result / m_porcelanato);
+            m_porcelanato = altura * larg1; //m² da peça de porcelanato
+            float res = result / m_porcelanato;
+            txtquant_porcelanato.Text = Convert.ToString(res);
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            largura_junta = int.Parse(rejunte_largura.Text);
         }
 
         private void larg_porcelanato_TextChanged(object sender, EventArgs e)
         {
-            larg = int.Parse(larg_porcelanato.Text);
-            larg1 = larg / 100; // converte em decimal
+            larg_porc = int.Parse(larg_porcelanato.Text);
+            larg1 = larg_porc / cem; // converte em decimal
         }
 
         private void alt_porcelanato_TextChanged(object sender, EventArgs e)
         {
             alt = int.Parse(alt_porcelanato.Text);
-            alt1 = alt / 100; //convert em decimal
+            altura = alt / cem; //convert em decimal
         }
 
         private void result_m2_TextChanged(object sender, EventArgs e)
