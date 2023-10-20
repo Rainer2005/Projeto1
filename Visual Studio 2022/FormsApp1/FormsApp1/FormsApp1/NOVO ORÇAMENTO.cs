@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,16 +16,17 @@ namespace FormsApp1
     {
         int compri = 0, larg = 0;
         float result = 0 ;
-        int alt = 0, larg_porc = 0 ;
+        float alt = 0;
+        float larg_porc = 0 ;
         float larg1 = 0, altura = 0,m_porcelanato = 0;
-        float cem = 100, dez = 10;
+        float cem = 100, dez = 10, um = 1;
         float rejunte_alt = 0, rejunte_larg = 0, rejunte_v = 0, rejunte_m = 0;
-        float expessura = 0, largura_junta = 0, profundidade = 0, rejunte_result = 0; 
-        double rejunte_cr = 1.62;
+        float expessura = 0, largura_junta = 0, rejunte_result = 0; 
+        float rejunte_cr = 0;
         float rejunte_total = 0;
-
-
-
+        float argamassa_total = 0;
+        float result_nivelador = 0, total_nivelador = 0, total_nivel = 0;
+        float alt_decimal = 0, larg_decimal = 0, vezes_decimal = 0;
 
         public NOVO_ORÇAMENTO()
         {
@@ -50,23 +52,46 @@ namespace FormsApp1
 
         private void REJUNTE_TextChanged(object sender, EventArgs e)
         {
+            rejunte_cr = Convert.ToInt16(1.62);
             rejunte_larg = larg_porc * dez; // converte em mm
             rejunte_alt = alt * dez; // converte em mm
             rejunte_m = rejunte_larg + rejunte_alt; // A + B (largura + altura em mm)
             rejunte_v = rejunte_alt * rejunte_larg; // A * B (largura * altura em mm)
 
-            rejunte_total = rejunte_m * rejunte_expessura * rejunte_profundidade * rejunte_cr;
-            rejunte_result = rejunte_total / rejunte_v; 
+            rejunte_total = rejunte_m * expessura * largura_junta * rejunte_cr;
+            rejunte_result = rejunte_total / rejunte_v;
+            rejunte_result = rejunte_result * result;
+            
+            REJUNTE.Text = rejunte_result.ToString("#,## kg", new CultureInfo("pt-BR")) ;
         }
 
         private void rejunte_profundidade_TextChanged(object sender, EventArgs e)
         {
-            profundidade = int.Parse(rejunte_profundidade.Text);
+        }
+
+        private void ARG_TOTAL_TextChanged(object sender, EventArgs e)
+        {
+            argamassa_total = result / 4;
+            ARG_TOTAL.Text = argamassa_total.ToString("#,##", new CultureInfo("pt-BR"));
         }
 
         private void largura_m2_TextChanged(object sender, EventArgs e)
         {
             larg = int.Parse(largura_m2.Text);
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+            alt_decimal = alt / cem;// convert decimal
+            larg_decimal = larg_porc / cem;//convert decimal
+            vezes_decimal = alt_decimal * larg_decimal; //soma nivelador
+            result_nivelador = um / vezes_decimal; // soma nivelador
+            total_nivelador = result_nivelador * 4; // quantidade de nivelador por m2
+            total_nivel = total_nivelador * result;
+            nivelador_total.Text = total_nivel.ToString("#,##", new CultureInfo("pt-BR"));
+
+
         }
 
         private void rejunte_expessura_TextChanged(object sender, EventArgs e)
@@ -92,7 +117,8 @@ namespace FormsApp1
         {
             m_porcelanato = altura * larg1; //m² da peça de porcelanato
             float res = result / m_porcelanato;
-            txtquant_porcelanato.Text = Convert.ToString(res);
+            txtquant_porcelanato.Text = res.ToString("#,##", new CultureInfo("pt-BR"));
+            // txtquant_porcelanato.Text = Convert.ToString(res);
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -102,13 +128,13 @@ namespace FormsApp1
 
         private void larg_porcelanato_TextChanged(object sender, EventArgs e)
         {
-            larg_porc = int.Parse(larg_porcelanato.Text);
+            larg_porc = float.Parse(larg_porcelanato.Text);
             larg1 = larg_porc / cem; // converte em decimal
         }
 
         private void alt_porcelanato_TextChanged(object sender, EventArgs e)
         {
-            alt = int.Parse(alt_porcelanato.Text);
+            alt = float.Parse(alt_porcelanato.Text);
             altura = alt / cem; //convert em decimal
         }
 
