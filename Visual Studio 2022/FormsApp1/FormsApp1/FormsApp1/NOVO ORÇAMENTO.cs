@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace FormsApp1
 {
@@ -50,6 +51,42 @@ namespace FormsApp1
         
         }
 
+        private void txtresult_m2_TextChanged(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void largura_m2_TextChanged_1(object sender, EventArgs e)
+        {
+            larg = int.Parse(largura_m2.Text);
+            result = (compri * larg);
+            txtresult_m2.Text = Convert.ToString(result);
+            textBox2.Text = Convert.ToString(result);
+        }
+
+        private void comprimento_m2_TextChanged_1(object sender, EventArgs e)
+        {
+            compri = int.Parse(comprimento_m2.Text);
+        }
+
+        private void NOME_ARGAMASSA_TextChanged(object sender, EventArgs e)
+        {
+            string rs = "";
+            rs = massa.Controls.OfType<RadioButton>().SingleOrDefault(RadioButton => RadioButton.Checked).Text; // selelcionar botão
+            NOME_ARGAMASSA.Text = rs;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+            
+        }
+
         private void REJUNTE_TextChanged(object sender, EventArgs e)
         {
             rejunte_cr = Convert.ToInt16(1.62);
@@ -62,7 +99,7 @@ namespace FormsApp1
             rejunte_result = rejunte_total / rejunte_v;
             rejunte_result = rejunte_result * result;
             
-            REJUNTE.Text = rejunte_result.ToString("#,## kg", new CultureInfo("pt-BR")) ;
+            REJUNTE.Text = rejunte_result.ToString("#,## ", new CultureInfo("pt-BR")) ;
         }
 
         private void rejunte_profundidade_TextChanged(object sender, EventArgs e)
@@ -78,6 +115,8 @@ namespace FormsApp1
         private void largura_m2_TextChanged(object sender, EventArgs e)
         {
             larg = int.Parse(largura_m2.Text);
+
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -106,8 +145,7 @@ namespace FormsApp1
 
         private void largura_m2_Leave(object sender, EventArgs e)
         {
-             result = (compri * larg);
-          // result = m_porcelanato; // teste 
+            result = (compri * larg);
             txtresult_m2.Text = Convert.ToString(result);
             textBox2.Text = Convert.ToString(result);
              
@@ -123,7 +161,13 @@ namespace FormsApp1
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
+            //--------------------------------------------
+            float res = result / m_porcelanato;
             largura_junta = int.Parse(rejunte_largura.Text);
+            txtquant_porcelanato.Text = res.ToString("#,##", new CultureInfo("pt-BR"));
+            nivelador_total.Text = total_nivel.ToString("#,##", new CultureInfo("pt-BR"));
+            ARG_TOTAL.Text = argamassa_total.ToString("#,##", new CultureInfo("pt-BR"));
+            REJUNTE.Text = rejunte_result.ToString("#,## ", new CultureInfo("pt-BR"));
         }
 
         private void larg_porcelanato_TextChanged(object sender, EventArgs e)
