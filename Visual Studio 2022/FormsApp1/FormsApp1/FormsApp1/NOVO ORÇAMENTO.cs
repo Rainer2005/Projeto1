@@ -79,12 +79,17 @@ namespace FormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+             
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
         {
             
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void REJUNTE_TextChanged(object sender, EventArgs e)

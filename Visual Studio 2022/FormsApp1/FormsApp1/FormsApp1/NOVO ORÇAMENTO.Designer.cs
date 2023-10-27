@@ -72,7 +72,6 @@
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.massa = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.comprimento_m2 = new System.Windows.Forms.TextBox();
             this.largura_m2 = new System.Windows.Forms.TextBox();
@@ -81,17 +80,27 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.groupBox_ADC = new System.Windows.Forms.GroupBox();
+            this.adc_compri = new System.Windows.Forms.Label();
+            this.larg_adc = new System.Windows.Forms.Label();
+            this.ADC_COMPRIMENTO = new System.Windows.Forms.TextBox();
+            this.ADC_COMODO = new System.Windows.Forms.Button();
+            this.ADC_LARGURA = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pre_visualizacao = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.NOME_ARGAMASSA = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
             this.orçamento.SuspendLayout();
             this.orcamento.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.massa.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox_ADC.SuspendLayout();
             this.pre_visualizacao.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -195,7 +204,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(40, 132);
+            this.label7.Location = new System.Drawing.Point(20, 166);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 15);
             this.label7.TabIndex = 14;
@@ -203,9 +212,9 @@
             // 
             // REJUNTE
             // 
-            this.REJUNTE.Location = new System.Drawing.Point(99, 129);
+            this.REJUNTE.Location = new System.Drawing.Point(20, 184);
             this.REJUNTE.Name = "REJUNTE";
-            this.REJUNTE.Size = new System.Drawing.Size(53, 23);
+            this.REJUNTE.Size = new System.Drawing.Size(276, 23);
             this.REJUNTE.TabIndex = 15;
             this.REJUNTE.TextChanged += new System.EventHandler(this.REJUNTE_TextChanged);
             // 
@@ -268,6 +277,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(593, 449);
             this.button1.Name = "button1";
@@ -279,6 +289,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(448, 449);
             this.button2.Name = "button2";
@@ -292,7 +303,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(40, 86);
+            this.label8.Location = new System.Drawing.Point(20, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(112, 15);
             this.label8.TabIndex = 23;
@@ -300,9 +311,9 @@
             // 
             // ARG_TOTAL
             // 
-            this.ARG_TOTAL.Location = new System.Drawing.Point(159, 83);
+            this.ARG_TOTAL.Location = new System.Drawing.Point(20, 140);
             this.ARG_TOTAL.Name = "ARG_TOTAL";
-            this.ARG_TOTAL.Size = new System.Drawing.Size(112, 23);
+            this.ARG_TOTAL.Size = new System.Drawing.Size(276, 23);
             this.ARG_TOTAL.TabIndex = 24;
             this.ARG_TOTAL.TextChanged += new System.EventHandler(this.ARG_TOTAL_TextChanged);
             // 
@@ -311,7 +322,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(40, 171);
+            this.label9.Location = new System.Drawing.Point(20, 210);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(117, 15);
             this.label9.TabIndex = 25;
@@ -319,9 +330,9 @@
             // 
             // nivelador_total
             // 
-            this.nivelador_total.Location = new System.Drawing.Point(159, 168);
+            this.nivelador_total.Location = new System.Drawing.Point(20, 228);
             this.nivelador_total.Name = "nivelador_total";
-            this.nivelador_total.Size = new System.Drawing.Size(117, 23);
+            this.nivelador_total.Size = new System.Drawing.Size(276, 23);
             this.nivelador_total.TabIndex = 26;
             this.nivelador_total.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -388,7 +399,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(40, 219);
+            this.label16.Location = new System.Drawing.Point(20, 254);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(135, 15);
             this.label16.TabIndex = 37;
@@ -396,9 +407,9 @@
             // 
             // txtquant_porcelanato
             // 
-            this.txtquant_porcelanato.Location = new System.Drawing.Point(181, 216);
+            this.txtquant_porcelanato.Location = new System.Drawing.Point(20, 272);
             this.txtquant_porcelanato.Name = "txtquant_porcelanato";
-            this.txtquant_porcelanato.Size = new System.Drawing.Size(135, 23);
+            this.txtquant_porcelanato.Size = new System.Drawing.Size(276, 23);
             this.txtquant_porcelanato.TabIndex = 38;
             this.txtquant_porcelanato.TextChanged += new System.EventHandler(this.quant_porcelanato_TextChanged);
             this.txtquant_porcelanato.Leave += new System.EventHandler(this.result_m2_TextChanged);
@@ -465,7 +476,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(277, 86);
+            this.label23.Location = new System.Drawing.Point(302, 148);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(81, 15);
             this.label23.TabIndex = 48;
@@ -474,7 +485,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(158, 132);
+            this.label18.Location = new System.Drawing.Point(302, 187);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(21, 15);
             this.label18.TabIndex = 50;
@@ -495,7 +506,6 @@
             this.orcamento.Controls.Add(this.groupBox3);
             this.orcamento.Controls.Add(this.massa);
             this.orcamento.Controls.Add(this.groupBox1);
-            this.orcamento.Controls.Add(this.button3);
             this.orcamento.Controls.Add(this.label24);
             this.orcamento.Controls.Add(this.comprimento_m2);
             this.orcamento.Controls.Add(this.largura_m2);
@@ -523,6 +533,8 @@
             this.orcamento.Controls.Add(this.label14);
             this.orcamento.Controls.Add(this.larg_porcelanato);
             this.orcamento.Controls.Add(this.alt_porcelanato);
+            this.orcamento.Controls.Add(this.groupBox_ADC);
+            this.orcamento.Controls.Add(this.groupBox2);
             this.orcamento.Location = new System.Drawing.Point(4, 24);
             this.orcamento.Name = "orcamento";
             this.orcamento.Padding = new System.Windows.Forms.Padding(3);
@@ -536,6 +548,7 @@
             // 
             this.groupBox3.Controls.Add(this.radioButton2);
             this.groupBox3.Controls.Add(this.radioButton5);
+            this.groupBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox3.Location = new System.Drawing.Point(84, 183);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(123, 40);
@@ -571,7 +584,8 @@
             this.massa.Controls.Add(this.radioButton1);
             this.massa.Controls.Add(this.ACIII);
             this.massa.Controls.Add(this.ACII);
-            this.massa.Location = new System.Drawing.Point(109, 232);
+            this.massa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.massa.Location = new System.Drawing.Point(109, 229);
             this.massa.Name = "massa";
             this.massa.Size = new System.Drawing.Size(159, 40);
             this.massa.TabIndex = 60;
@@ -582,22 +596,12 @@
             // 
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.groupBox1.Location = new System.Drawing.Point(118, 273);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(111, 40);
             this.groupBox1.TabIndex = 59;
             this.groupBox1.TabStop = false;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(478, 117);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 31);
-            this.button3.TabIndex = 58;
-            this.button3.Text = "ADICIONAR COMODO";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label24
             // 
@@ -682,23 +686,78 @@
             this.label12.TabIndex = 51;
             this.label12.Text = "RESULTADO";
             // 
+            // groupBox_ADC
+            // 
+            this.groupBox_ADC.Controls.Add(this.adc_compri);
+            this.groupBox_ADC.Controls.Add(this.larg_adc);
+            this.groupBox_ADC.Controls.Add(this.ADC_COMPRIMENTO);
+            this.groupBox_ADC.Controls.Add(this.ADC_COMODO);
+            this.groupBox_ADC.Controls.Add(this.ADC_LARGURA);
+            this.groupBox_ADC.Location = new System.Drawing.Point(434, 130);
+            this.groupBox_ADC.Name = "groupBox_ADC";
+            this.groupBox_ADC.Size = new System.Drawing.Size(265, 124);
+            this.groupBox_ADC.TabIndex = 67;
+            this.groupBox_ADC.TabStop = false;
+            // 
+            // adc_compri
+            // 
+            this.adc_compri.AutoSize = true;
+            this.adc_compri.Location = new System.Drawing.Point(45, 66);
+            this.adc_compri.Name = "adc_compri";
+            this.adc_compri.Size = new System.Drawing.Size(92, 15);
+            this.adc_compri.TabIndex = 65;
+            this.adc_compri.Text = "COMPRIMENTO";
+            // 
+            // larg_adc
+            // 
+            this.larg_adc.AutoSize = true;
+            this.larg_adc.Location = new System.Drawing.Point(145, 66);
+            this.larg_adc.Name = "larg_adc";
+            this.larg_adc.Size = new System.Drawing.Size(59, 15);
+            this.larg_adc.TabIndex = 66;
+            this.larg_adc.Text = "LARGURA";
+            this.larg_adc.Click += new System.EventHandler(this.label29_Click);
+            // 
+            // ADC_COMPRIMENTO
+            // 
+            this.ADC_COMPRIMENTO.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ADC_COMPRIMENTO.Location = new System.Drawing.Point(45, 84);
+            this.ADC_COMPRIMENTO.Name = "ADC_COMPRIMENTO";
+            this.ADC_COMPRIMENTO.Size = new System.Drawing.Size(92, 23);
+            this.ADC_COMPRIMENTO.TabIndex = 63;
+            // 
+            // ADC_COMODO
+            // 
+            this.ADC_COMODO.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ADC_COMODO.Location = new System.Drawing.Point(46, 22);
+            this.ADC_COMODO.Name = "ADC_COMODO";
+            this.ADC_COMODO.Size = new System.Drawing.Size(168, 31);
+            this.ADC_COMODO.TabIndex = 58;
+            this.ADC_COMODO.Text = "ADICIONAR COMODO";
+            this.ADC_COMODO.UseVisualStyleBackColor = true;
+            this.ADC_COMODO.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // ADC_LARGURA
+            // 
+            this.ADC_LARGURA.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ADC_LARGURA.Location = new System.Drawing.Point(145, 84);
+            this.ADC_LARGURA.Name = "ADC_LARGURA";
+            this.ADC_LARGURA.Size = new System.Drawing.Size(69, 23);
+            this.ADC_LARGURA.TabIndex = 62;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(432, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(267, 100);
+            this.groupBox2.TabIndex = 68;
+            this.groupBox2.TabStop = false;
+            // 
             // pre_visualizacao
             // 
-            this.pre_visualizacao.Controls.Add(this.NOME_ARGAMASSA);
-            this.pre_visualizacao.Controls.Add(this.label25);
-            this.pre_visualizacao.Controls.Add(this.textBox3);
             this.pre_visualizacao.Controls.Add(this.label20);
-            this.pre_visualizacao.Controls.Add(this.label18);
-            this.pre_visualizacao.Controls.Add(this.label7);
-            this.pre_visualizacao.Controls.Add(this.label23);
-            this.pre_visualizacao.Controls.Add(this.REJUNTE);
-            this.pre_visualizacao.Controls.Add(this.txtquant_porcelanato);
-            this.pre_visualizacao.Controls.Add(this.label8);
-            this.pre_visualizacao.Controls.Add(this.label16);
-            this.pre_visualizacao.Controls.Add(this.ARG_TOTAL);
             this.pre_visualizacao.Controls.Add(this.resultado_m2);
-            this.pre_visualizacao.Controls.Add(this.label9);
-            this.pre_visualizacao.Controls.Add(this.nivelador_total);
+            this.pre_visualizacao.Controls.Add(this.groupBox4);
             this.pre_visualizacao.Location = new System.Drawing.Point(4, 24);
             this.pre_visualizacao.Name = "pre_visualizacao";
             this.pre_visualizacao.Padding = new System.Windows.Forms.Padding(3);
@@ -706,30 +765,6 @@
             this.pre_visualizacao.TabIndex = 1;
             this.pre_visualizacao.Text = "PRÉ-VISUALIZAÇÃO";
             this.pre_visualizacao.UseVisualStyleBackColor = true;
-            // 
-            // NOME_ARGAMASSA
-            // 
-            this.NOME_ARGAMASSA.Location = new System.Drawing.Point(123, 263);
-            this.NOME_ARGAMASSA.Name = "NOME_ARGAMASSA";
-            this.NOME_ARGAMASSA.Size = new System.Drawing.Size(70, 23);
-            this.NOME_ARGAMASSA.TabIndex = 54;
-            this.NOME_ARGAMASSA.TextChanged += new System.EventHandler(this.NOME_ARGAMASSA_TextChanged);
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(40, 266);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(77, 15);
-            this.label25.TabIndex = 53;
-            this.label25.Text = "ARGAMASSA";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(171, 39);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 52;
             // 
             // label20
             // 
@@ -740,12 +775,59 @@
             this.label20.TabIndex = 51;
             this.label20.Text = "VALOR MÃO DE OBRA";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.NOME_ARGAMASSA);
+            this.groupBox4.Controls.Add(this.label25);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.label23);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.label18);
+            this.groupBox4.Controls.Add(this.ARG_TOTAL);
+            this.groupBox4.Controls.Add(this.txtquant_porcelanato);
+            this.groupBox4.Controls.Add(this.label16);
+            this.groupBox4.Controls.Add(this.nivelador_total);
+            this.groupBox4.Controls.Add(this.REJUNTE);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.groupBox4.Location = new System.Drawing.Point(20, 6);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(387, 381);
+            this.groupBox4.TabIndex = 55;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "PRÉ VISUALIZAÇÃO DE MATERIAL";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(20, 54);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(276, 23);
+            this.textBox3.TabIndex = 52;
+            // 
+            // NOME_ARGAMASSA
+            // 
+            this.NOME_ARGAMASSA.Location = new System.Drawing.Point(20, 316);
+            this.NOME_ARGAMASSA.Name = "NOME_ARGAMASSA";
+            this.NOME_ARGAMASSA.Size = new System.Drawing.Size(276, 23);
+            this.NOME_ARGAMASSA.TabIndex = 54;
+            this.NOME_ARGAMASSA.TextChanged += new System.EventHandler(this.NOME_ARGAMASSA_TextChanged);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(20, 298);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(77, 15);
+            this.label25.TabIndex = 53;
+            this.label25.Text = "ARGAMASSA";
+            // 
             // NOVO_ORÇAMENTO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(810, 483);
+            this.ClientSize = new System.Drawing.Size(837, 570);
             this.Controls.Add(this.orçamento);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -763,8 +845,12 @@
             this.massa.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox_ADC.ResumeLayout(false);
+            this.groupBox_ADC.PerformLayout();
             this.pre_visualizacao.ResumeLayout(false);
             this.pre_visualizacao.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -823,11 +909,18 @@
         private RadioButton radioButton5;
         private RadioButton radioButton2;
         private Label label24;
-        private Button button3;
+        private Button ADC_COMODO;
         private GroupBox groupBox3;
         private GroupBox massa;
         private GroupBox groupBox1;
         private TextBox NOME_ARGAMASSA;
         private Label label25;
+        private Label adc_compri;
+        private TextBox ADC_COMPRIMENTO;
+        private TextBox ADC_LARGURA;
+        private Label larg_adc;
+        private GroupBox groupBox_ADC;
+        private GroupBox groupBox2;
+        private GroupBox groupBox4;
     }
 }
