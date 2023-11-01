@@ -92,6 +92,11 @@ namespace FormsApp1
 
         }
 
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void REJUNTE_TextChanged(object sender, EventArgs e)
         {
             rejunte_cr = Convert.ToInt16(1.62);

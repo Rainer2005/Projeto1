@@ -28,15 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.SERV_ORCAMENTO = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.REJUNTE = new System.Windows.Forms.TextBox();
             this.ACII = new System.Windows.Forms.RadioButton();
@@ -67,60 +64,55 @@
             this.label18 = new System.Windows.Forms.Label();
             this.orçamento = new System.Windows.Forms.TabControl();
             this.orcamento = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.massa = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label24 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.comprimento_m2 = new System.Windows.Forms.TextBox();
             this.largura_m2 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.txtresult_m2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox_ADC = new System.Windows.Forms.GroupBox();
-            this.adc_compri = new System.Windows.Forms.Label();
-            this.larg_adc = new System.Windows.Forms.Label();
-            this.ADC_COMPRIMENTO = new System.Windows.Forms.TextBox();
-            this.ADC_COMODO = new System.Windows.Forms.Button();
-            this.ADC_LARGURA = new System.Windows.Forms.TextBox();
+            this.massa = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.pre_visualizacao = new System.Windows.Forms.TabPage();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.NOME_ARGAMASSA = new System.Windows.Forms.TextBox();
             this.label25 = new System.Windows.Forms.Label();
+            this.ADC_COMODO = new System.Windows.Forms.Button();
             this.orçamento.SuspendLayout();
             this.orcamento.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.massa.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.groupBox_ADC.SuspendLayout();
+            this.massa.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             this.pre_visualizacao.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(26, 85);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "SELECIONE O SERVIÇO DESEJADO";
             // 
             // SERV_ORCAMENTO
             // 
             this.SERV_ORCAMENTO.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.SERV_ORCAMENTO.FormattingEnabled = true;
-            this.SERV_ORCAMENTO.Location = new System.Drawing.Point(217, 82);
+            this.SERV_ORCAMENTO.Location = new System.Drawing.Point(158, 37);
             this.SERV_ORCAMENTO.Name = "SERV_ORCAMENTO";
-            this.SERV_ORCAMENTO.Size = new System.Drawing.Size(121, 24);
+            this.SERV_ORCAMENTO.Size = new System.Drawing.Size(175, 24);
             this.SERV_ORCAMENTO.TabIndex = 2;
             this.SERV_ORCAMENTO.SelectedIndexChanged += new System.EventHandler(this.SERV_ORCAMENTO_SelectedIndexChanged);
             // 
@@ -129,19 +121,19 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(26, 30);
+            this.label2.Location = new System.Drawing.Point(85, 21);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 16);
+            this.label2.Size = new System.Drawing.Size(135, 16);
             this.label2.TabIndex = 9;
-            this.label2.Text = "DIGITE O NOME DO CLIENTE";
+            this.label2.Text = "NOME / RAZÃO SOCIAL";
             // 
             // textBox1
             // 
             this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(191, 27);
+            this.textBox1.Location = new System.Drawing.Point(85, 40);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 23);
+            this.textBox1.Size = new System.Drawing.Size(202, 23);
             this.textBox1.TabIndex = 4;
             // 
             // label3
@@ -149,18 +141,18 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(26, 120);
+            this.label3.Location = new System.Drawing.Point(12, 28);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 16);
+            this.label3.Size = new System.Drawing.Size(68, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "DIGITE O TAMANHO";
+            this.label3.Text = "TAMANHO";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(26, 155);
+            this.label4.Location = new System.Drawing.Point(431, 258);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 16);
             this.label4.TabIndex = 9;
@@ -170,41 +162,19 @@
             // 
             this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(111, 152);
+            this.textBox2.Location = new System.Drawing.Point(518, 251);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(65, 23);
             this.textBox2.TabIndex = 10;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             this.textBox2.Leave += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(26, 249);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 16);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "ARGAMASSA";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(30, 291);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 16);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "NIVELADORES";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(20, 166);
+            this.label7.Location = new System.Drawing.Point(6, 73);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(53, 15);
             this.label7.TabIndex = 14;
@@ -212,9 +182,9 @@
             // 
             // REJUNTE
             // 
-            this.REJUNTE.Location = new System.Drawing.Point(20, 184);
+            this.REJUNTE.Location = new System.Drawing.Point(6, 91);
             this.REJUNTE.Name = "REJUNTE";
-            this.REJUNTE.Size = new System.Drawing.Size(276, 23);
+            this.REJUNTE.Size = new System.Drawing.Size(205, 23);
             this.REJUNTE.TabIndex = 15;
             this.REJUNTE.TextChanged += new System.EventHandler(this.REJUNTE_TextChanged);
             // 
@@ -303,7 +273,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(20, 122);
+            this.label8.Location = new System.Drawing.Point(6, 29);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(112, 15);
             this.label8.TabIndex = 23;
@@ -311,9 +281,9 @@
             // 
             // ARG_TOTAL
             // 
-            this.ARG_TOTAL.Location = new System.Drawing.Point(20, 140);
+            this.ARG_TOTAL.Location = new System.Drawing.Point(6, 47);
             this.ARG_TOTAL.Name = "ARG_TOTAL";
-            this.ARG_TOTAL.Size = new System.Drawing.Size(276, 23);
+            this.ARG_TOTAL.Size = new System.Drawing.Size(205, 23);
             this.ARG_TOTAL.TabIndex = 24;
             this.ARG_TOTAL.TextChanged += new System.EventHandler(this.ARG_TOTAL_TextChanged);
             // 
@@ -322,7 +292,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(20, 210);
+            this.label9.Location = new System.Drawing.Point(6, 117);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(117, 15);
             this.label9.TabIndex = 25;
@@ -330,9 +300,9 @@
             // 
             // nivelador_total
             // 
-            this.nivelador_total.Location = new System.Drawing.Point(20, 228);
+            this.nivelador_total.Location = new System.Drawing.Point(6, 135);
             this.nivelador_total.Name = "nivelador_total";
-            this.nivelador_total.Size = new System.Drawing.Size(276, 23);
+            this.nivelador_total.Size = new System.Drawing.Size(205, 23);
             this.nivelador_total.TabIndex = 26;
             this.nivelador_total.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
@@ -361,7 +331,7 @@
             // larg_porcelanato
             // 
             this.larg_porcelanato.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.larg_porcelanato.Location = new System.Drawing.Point(204, 117);
+            this.larg_porcelanato.Location = new System.Drawing.Point(142, 25);
             this.larg_porcelanato.Name = "larg_porcelanato";
             this.larg_porcelanato.Size = new System.Drawing.Size(31, 23);
             this.larg_porcelanato.TabIndex = 33;
@@ -370,7 +340,7 @@
             // alt_porcelanato
             // 
             this.alt_porcelanato.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.alt_porcelanato.Location = new System.Drawing.Point(147, 117);
+            this.alt_porcelanato.Location = new System.Drawing.Point(85, 25);
             this.alt_porcelanato.Name = "alt_porcelanato";
             this.alt_porcelanato.Size = new System.Drawing.Size(31, 23);
             this.alt_porcelanato.TabIndex = 34;
@@ -380,7 +350,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(184, 120);
+            this.label14.Location = new System.Drawing.Point(122, 28);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(14, 16);
             this.label14.TabIndex = 35;
@@ -390,7 +360,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label15.Location = new System.Drawing.Point(241, 120);
+            this.label15.Location = new System.Drawing.Point(179, 29);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(132, 16);
             this.label15.TabIndex = 36;
@@ -399,7 +369,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(20, 254);
+            this.label16.Location = new System.Drawing.Point(6, 161);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(135, 15);
             this.label16.TabIndex = 37;
@@ -407,9 +377,9 @@
             // 
             // txtquant_porcelanato
             // 
-            this.txtquant_porcelanato.Location = new System.Drawing.Point(20, 272);
+            this.txtquant_porcelanato.Location = new System.Drawing.Point(6, 179);
             this.txtquant_porcelanato.Name = "txtquant_porcelanato";
-            this.txtquant_porcelanato.Size = new System.Drawing.Size(276, 23);
+            this.txtquant_porcelanato.Size = new System.Drawing.Size(205, 23);
             this.txtquant_porcelanato.TabIndex = 38;
             this.txtquant_porcelanato.TextChanged += new System.EventHandler(this.quant_porcelanato_TextChanged);
             this.txtquant_porcelanato.Leave += new System.EventHandler(this.result_m2_TextChanged);
@@ -418,7 +388,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label17.Location = new System.Drawing.Point(30, 360);
+            this.label17.Location = new System.Drawing.Point(42, 283);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(117, 16);
             this.label17.TabIndex = 39;
@@ -428,7 +398,7 @@
             // 
             this.rejunte_largura.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.rejunte_largura.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rejunte_largura.Location = new System.Drawing.Point(151, 357);
+            this.rejunte_largura.Location = new System.Drawing.Point(163, 280);
             this.rejunte_largura.Name = "rejunte_largura";
             this.rejunte_largura.Size = new System.Drawing.Size(60, 23);
             this.rejunte_largura.TabIndex = 41;
@@ -438,7 +408,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(213, 360);
+            this.label19.Location = new System.Drawing.Point(225, 283);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(92, 16);
             this.label19.TabIndex = 43;
@@ -448,16 +418,16 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label21.Location = new System.Drawing.Point(30, 324);
+            this.label21.Location = new System.Drawing.Point(12, 62);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(118, 16);
+            this.label21.Size = new System.Drawing.Size(70, 16);
             this.label21.TabIndex = 45;
-            this.label21.Text = "ESPESSURA DA PEÇA";
+            this.label21.Text = "ESPESSURA ";
             // 
             // rejunte_expessura
             // 
             this.rejunte_expessura.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rejunte_expessura.Location = new System.Drawing.Point(151, 321);
+            this.rejunte_expessura.Location = new System.Drawing.Point(85, 59);
             this.rejunte_expessura.Name = "rejunte_expessura";
             this.rejunte_expessura.Size = new System.Drawing.Size(60, 23);
             this.rejunte_expessura.TabIndex = 46;
@@ -467,7 +437,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label22.Location = new System.Drawing.Point(213, 324);
+            this.label22.Location = new System.Drawing.Point(151, 62);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(103, 16);
             this.label22.TabIndex = 47;
@@ -476,7 +446,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(302, 148);
+            this.label23.Location = new System.Drawing.Point(217, 50);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(81, 15);
             this.label23.TabIndex = 48;
@@ -485,7 +455,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(302, 187);
+            this.label18.Location = new System.Drawing.Point(217, 94);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(21, 15);
             this.label18.TabIndex = 50;
@@ -503,38 +473,22 @@
             // 
             // orcamento
             // 
-            this.orcamento.Controls.Add(this.groupBox3);
-            this.orcamento.Controls.Add(this.massa);
-            this.orcamento.Controls.Add(this.groupBox1);
-            this.orcamento.Controls.Add(this.label24);
+            this.orcamento.Controls.Add(this.groupBox7);
             this.orcamento.Controls.Add(this.comprimento_m2);
             this.orcamento.Controls.Add(this.largura_m2);
-            this.orcamento.Controls.Add(this.label10);
             this.orcamento.Controls.Add(this.txtresult_m2);
             this.orcamento.Controls.Add(this.label11);
             this.orcamento.Controls.Add(this.label13);
             this.orcamento.Controls.Add(this.label12);
-            this.orcamento.Controls.Add(this.label2);
-            this.orcamento.Controls.Add(this.label1);
-            this.orcamento.Controls.Add(this.SERV_ORCAMENTO);
-            this.orcamento.Controls.Add(this.textBox1);
-            this.orcamento.Controls.Add(this.label3);
-            this.orcamento.Controls.Add(this.label22);
             this.orcamento.Controls.Add(this.label4);
-            this.orcamento.Controls.Add(this.rejunte_expessura);
             this.orcamento.Controls.Add(this.textBox2);
-            this.orcamento.Controls.Add(this.label21);
-            this.orcamento.Controls.Add(this.label5);
             this.orcamento.Controls.Add(this.label19);
-            this.orcamento.Controls.Add(this.label6);
             this.orcamento.Controls.Add(this.rejunte_largura);
             this.orcamento.Controls.Add(this.label17);
-            this.orcamento.Controls.Add(this.label15);
-            this.orcamento.Controls.Add(this.label14);
-            this.orcamento.Controls.Add(this.larg_porcelanato);
-            this.orcamento.Controls.Add(this.alt_porcelanato);
             this.orcamento.Controls.Add(this.groupBox_ADC);
             this.orcamento.Controls.Add(this.groupBox2);
+            this.orcamento.Controls.Add(this.groupBox6);
+            this.orcamento.Controls.Add(this.groupBox8);
             this.orcamento.Location = new System.Drawing.Point(4, 24);
             this.orcamento.Name = "orcamento";
             this.orcamento.Padding = new System.Windows.Forms.Padding(3);
@@ -544,16 +498,115 @@
             this.orcamento.Text = "ORÇAMENTO";
             this.orcamento.UseVisualStyleBackColor = true;
             // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.SERV_ORCAMENTO);
+            this.groupBox7.Location = new System.Drawing.Point(30, 104);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(347, 73);
+            this.groupBox7.TabIndex = 70;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "SERVIÇO A SER REALIZADO";
+            // 
+            // comprimento_m2
+            // 
+            this.comprimento_m2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.comprimento_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comprimento_m2.Location = new System.Drawing.Point(444, 61);
+            this.comprimento_m2.Name = "comprimento_m2";
+            this.comprimento_m2.Size = new System.Drawing.Size(94, 23);
+            this.comprimento_m2.TabIndex = 52;
+            this.comprimento_m2.TextChanged += new System.EventHandler(this.comprimento_m2_TextChanged_1);
+            // 
+            // largura_m2
+            // 
+            this.largura_m2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.largura_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.largura_m2.Location = new System.Drawing.Point(542, 61);
+            this.largura_m2.Name = "largura_m2";
+            this.largura_m2.Size = new System.Drawing.Size(65, 23);
+            this.largura_m2.TabIndex = 53;
+            this.largura_m2.TextChanged += new System.EventHandler(this.largura_m2_TextChanged_1);
+            // 
+            // txtresult_m2
+            // 
+            this.txtresult_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtresult_m2.Location = new System.Drawing.Point(613, 61);
+            this.txtresult_m2.Name = "txtresult_m2";
+            this.txtresult_m2.Size = new System.Drawing.Size(71, 23);
+            this.txtresult_m2.TabIndex = 54;
+            this.txtresult_m2.TextChanged += new System.EventHandler(this.txtresult_m2_TextChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label11.Location = new System.Drawing.Point(446, 43);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(94, 16);
+            this.label11.TabIndex = 49;
+            this.label11.Text = "COMPRIMENTO";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label13.Location = new System.Drawing.Point(544, 43);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 16);
+            this.label13.TabIndex = 50;
+            this.label13.Text = "LARGURA";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.Location = new System.Drawing.Point(613, 43);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 16);
+            this.label12.TabIndex = 51;
+            this.label12.Text = "RESULTADO";
+            // 
+            // groupBox_ADC
+            // 
+            this.groupBox_ADC.Controls.Add(this.massa);
+            this.groupBox_ADC.Controls.Add(this.groupBox3);
+            this.groupBox_ADC.Controls.Add(this.groupBox1);
+            this.groupBox_ADC.Location = new System.Drawing.Point(431, 116);
+            this.groupBox_ADC.Name = "groupBox_ADC";
+            this.groupBox_ADC.Size = new System.Drawing.Size(265, 124);
+            this.groupBox_ADC.TabIndex = 67;
+            this.groupBox_ADC.TabStop = false;
+            this.groupBox_ADC.Text = "INFORMAÇÕES COMPLEMENTARES";
+            // 
+            // massa
+            // 
+            this.massa.Controls.Add(this.radioButton1);
+            this.massa.Controls.Add(this.ACIII);
+            this.massa.Controls.Add(this.ACII);
+            this.massa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.massa.Location = new System.Drawing.Point(50, 23);
+            this.massa.Name = "massa";
+            this.massa.Size = new System.Drawing.Size(159, 40);
+            this.massa.TabIndex = 60;
+            this.massa.TabStop = false;
+            this.massa.Text = "ARGAMASSA";
+            this.massa.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.radioButton2);
             this.groupBox3.Controls.Add(this.radioButton5);
             this.groupBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.groupBox3.Location = new System.Drawing.Point(84, 183);
+            this.groupBox3.Location = new System.Drawing.Point(13, 75);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(123, 40);
+            this.groupBox3.Size = new System.Drawing.Size(116, 40);
             this.groupBox3.TabIndex = 61;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "RODAPÉ";
             // 
             // radioButton2
             // 
@@ -579,183 +632,76 @@
             this.radioButton5.Text = "NÃO";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
-            // massa
-            // 
-            this.massa.Controls.Add(this.radioButton1);
-            this.massa.Controls.Add(this.ACIII);
-            this.massa.Controls.Add(this.ACII);
-            this.massa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.massa.Location = new System.Drawing.Point(109, 229);
-            this.massa.Name = "massa";
-            this.massa.Size = new System.Drawing.Size(159, 40);
-            this.massa.TabIndex = 60;
-            this.massa.TabStop = false;
-            this.massa.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.groupBox1.Location = new System.Drawing.Point(118, 273);
+            this.groupBox1.Location = new System.Drawing.Point(137, 75);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(111, 40);
+            this.groupBox1.Size = new System.Drawing.Size(117, 40);
             this.groupBox1.TabIndex = 59;
             this.groupBox1.TabStop = false;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label24.Location = new System.Drawing.Point(26, 200);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(52, 16);
-            this.label24.TabIndex = 55;
-            this.label24.Text = "RODAPÉ";
-            // 
-            // comprimento_m2
-            // 
-            this.comprimento_m2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.comprimento_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comprimento_m2.Location = new System.Drawing.Point(445, 70);
-            this.comprimento_m2.Name = "comprimento_m2";
-            this.comprimento_m2.Size = new System.Drawing.Size(94, 23);
-            this.comprimento_m2.TabIndex = 52;
-            this.comprimento_m2.TextChanged += new System.EventHandler(this.comprimento_m2_TextChanged_1);
-            // 
-            // largura_m2
-            // 
-            this.largura_m2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.largura_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.largura_m2.Location = new System.Drawing.Point(543, 70);
-            this.largura_m2.Name = "largura_m2";
-            this.largura_m2.Size = new System.Drawing.Size(65, 23);
-            this.largura_m2.TabIndex = 53;
-            this.largura_m2.TextChanged += new System.EventHandler(this.largura_m2_TextChanged_1);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(522, 27);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(109, 16);
-            this.label10.TabIndex = 48;
-            this.label10.Text = "CALCULADORA M²";
-            // 
-            // txtresult_m2
-            // 
-            this.txtresult_m2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtresult_m2.Location = new System.Drawing.Point(614, 70);
-            this.txtresult_m2.Name = "txtresult_m2";
-            this.txtresult_m2.Size = new System.Drawing.Size(71, 23);
-            this.txtresult_m2.TabIndex = 54;
-            this.txtresult_m2.TextChanged += new System.EventHandler(this.txtresult_m2_TextChanged);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(447, 52);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(94, 16);
-            this.label11.TabIndex = 49;
-            this.label11.Text = "COMPRIMENTO";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(545, 52);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(59, 16);
-            this.label13.TabIndex = 50;
-            this.label13.Text = "LARGURA";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(614, 52);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 16);
-            this.label12.TabIndex = 51;
-            this.label12.Text = "RESULTADO";
-            // 
-            // groupBox_ADC
-            // 
-            this.groupBox_ADC.Controls.Add(this.adc_compri);
-            this.groupBox_ADC.Controls.Add(this.larg_adc);
-            this.groupBox_ADC.Controls.Add(this.ADC_COMPRIMENTO);
-            this.groupBox_ADC.Controls.Add(this.ADC_COMODO);
-            this.groupBox_ADC.Controls.Add(this.ADC_LARGURA);
-            this.groupBox_ADC.Location = new System.Drawing.Point(434, 130);
-            this.groupBox_ADC.Name = "groupBox_ADC";
-            this.groupBox_ADC.Size = new System.Drawing.Size(265, 124);
-            this.groupBox_ADC.TabIndex = 67;
-            this.groupBox_ADC.TabStop = false;
-            // 
-            // adc_compri
-            // 
-            this.adc_compri.AutoSize = true;
-            this.adc_compri.Location = new System.Drawing.Point(45, 66);
-            this.adc_compri.Name = "adc_compri";
-            this.adc_compri.Size = new System.Drawing.Size(92, 15);
-            this.adc_compri.TabIndex = 65;
-            this.adc_compri.Text = "COMPRIMENTO";
-            // 
-            // larg_adc
-            // 
-            this.larg_adc.AutoSize = true;
-            this.larg_adc.Location = new System.Drawing.Point(145, 66);
-            this.larg_adc.Name = "larg_adc";
-            this.larg_adc.Size = new System.Drawing.Size(59, 15);
-            this.larg_adc.TabIndex = 66;
-            this.larg_adc.Text = "LARGURA";
-            this.larg_adc.Click += new System.EventHandler(this.label29_Click);
-            // 
-            // ADC_COMPRIMENTO
-            // 
-            this.ADC_COMPRIMENTO.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ADC_COMPRIMENTO.Location = new System.Drawing.Point(45, 84);
-            this.ADC_COMPRIMENTO.Name = "ADC_COMPRIMENTO";
-            this.ADC_COMPRIMENTO.Size = new System.Drawing.Size(92, 23);
-            this.ADC_COMPRIMENTO.TabIndex = 63;
-            // 
-            // ADC_COMODO
-            // 
-            this.ADC_COMODO.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ADC_COMODO.Location = new System.Drawing.Point(46, 22);
-            this.ADC_COMODO.Name = "ADC_COMODO";
-            this.ADC_COMODO.Size = new System.Drawing.Size(168, 31);
-            this.ADC_COMODO.TabIndex = 58;
-            this.ADC_COMODO.Text = "ADICIONAR COMODO";
-            this.ADC_COMODO.UseVisualStyleBackColor = true;
-            this.ADC_COMODO.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // ADC_LARGURA
-            // 
-            this.ADC_LARGURA.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ADC_LARGURA.Location = new System.Drawing.Point(145, 84);
-            this.ADC_LARGURA.Name = "ADC_LARGURA";
-            this.ADC_LARGURA.Size = new System.Drawing.Size(69, 23);
-            this.ADC_LARGURA.TabIndex = 62;
+            this.groupBox1.Text = "NIVELADOR";
             // 
             // groupBox2
             // 
-            this.groupBox2.Location = new System.Drawing.Point(432, 6);
+            this.groupBox2.Location = new System.Drawing.Point(431, 21);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(267, 100);
+            this.groupBox2.Size = new System.Drawing.Size(267, 76);
             this.groupBox2.TabIndex = 68;
             this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "CALCULADORA M²";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.textBox5);
+            this.groupBox6.Controls.Add(this.label6);
+            this.groupBox6.Controls.Add(this.textBox1);
+            this.groupBox6.Controls.Add(this.label2);
+            this.groupBox6.Location = new System.Drawing.Point(30, 21);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(347, 76);
+            this.groupBox6.TabIndex = 69;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "CLIENTE";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(10, 40);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(60, 23);
+            this.textBox5.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(10, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 15);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Id";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label3);
+            this.groupBox8.Controls.Add(this.alt_porcelanato);
+            this.groupBox8.Controls.Add(this.label14);
+            this.groupBox8.Controls.Add(this.larg_porcelanato);
+            this.groupBox8.Controls.Add(this.label15);
+            this.groupBox8.Controls.Add(this.label21);
+            this.groupBox8.Controls.Add(this.rejunte_expessura);
+            this.groupBox8.Controls.Add(this.label22);
+            this.groupBox8.Location = new System.Drawing.Point(30, 192);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(359, 120);
+            this.groupBox8.TabIndex = 71;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "DIMENSÕES DA PEÇA";
             // 
             // pre_visualizacao
             // 
-            this.pre_visualizacao.Controls.Add(this.label20);
+            this.pre_visualizacao.Controls.Add(this.groupBox5);
             this.pre_visualizacao.Controls.Add(this.resultado_m2);
             this.pre_visualizacao.Controls.Add(this.groupBox4);
             this.pre_visualizacao.Location = new System.Drawing.Point(4, 24);
@@ -766,18 +712,37 @@
             this.pre_visualizacao.Text = "PRÉ-VISUALIZAÇÃO";
             this.pre_visualizacao.UseVisualStyleBackColor = true;
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.textBox3);
+            this.groupBox5.Controls.Add(this.label20);
+            this.groupBox5.Location = new System.Drawing.Point(432, 6);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(279, 124);
+            this.groupBox5.TabIndex = 56;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "VALORES CADASTRADOS";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(6, 47);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(186, 23);
+            this.textBox3.TabIndex = 52;
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(40, 42);
+            this.label20.Location = new System.Drawing.Point(6, 29);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(125, 15);
+            this.label20.Size = new System.Drawing.Size(87, 15);
             this.label20.TabIndex = 51;
-            this.label20.Text = "VALOR MÃO DE OBRA";
+            this.label20.Text = "VALOR POR M²";
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.NOME_ARGAMASSA);
             this.groupBox4.Controls.Add(this.label25);
             this.groupBox4.Controls.Add(this.label8);
@@ -790,7 +755,6 @@
             this.groupBox4.Controls.Add(this.nivelador_total);
             this.groupBox4.Controls.Add(this.REJUNTE);
             this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.groupBox4.Location = new System.Drawing.Point(20, 6);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(387, 381);
@@ -798,29 +762,50 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "PRÉ VISUALIZAÇÃO DE MATERIAL";
             // 
-            // textBox3
+            // textBox4
             // 
-            this.textBox3.Location = new System.Drawing.Point(20, 54);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(276, 23);
-            this.textBox3.TabIndex = 52;
+            this.textBox4.Location = new System.Drawing.Point(6, 281);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(205, 23);
+            this.textBox4.TabIndex = 56;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 263);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(78, 15);
+            this.label5.TabIndex = 55;
+            this.label5.Text = "VALOR TOTAL";
             // 
             // NOME_ARGAMASSA
             // 
-            this.NOME_ARGAMASSA.Location = new System.Drawing.Point(20, 316);
+            this.NOME_ARGAMASSA.Location = new System.Drawing.Point(6, 223);
             this.NOME_ARGAMASSA.Name = "NOME_ARGAMASSA";
-            this.NOME_ARGAMASSA.Size = new System.Drawing.Size(276, 23);
+            this.NOME_ARGAMASSA.Size = new System.Drawing.Size(205, 23);
             this.NOME_ARGAMASSA.TabIndex = 54;
             this.NOME_ARGAMASSA.TextChanged += new System.EventHandler(this.NOME_ARGAMASSA_TextChanged);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(20, 298);
+            this.label25.Location = new System.Drawing.Point(6, 205);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(77, 15);
             this.label25.TabIndex = 53;
             this.label25.Text = "ARGAMASSA";
+            // 
+            // ADC_COMODO
+            // 
+            this.ADC_COMODO.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ADC_COMODO.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ADC_COMODO.Location = new System.Drawing.Point(299, 449);
+            this.ADC_COMODO.Name = "ADC_COMODO";
+            this.ADC_COMODO.Size = new System.Drawing.Size(143, 31);
+            this.ADC_COMODO.TabIndex = 58;
+            this.ADC_COMODO.Text = "ADICIONAR COMODO";
+            this.ADC_COMODO.UseVisualStyleBackColor = false;
+            this.ADC_COMODO.Click += new System.EventHandler(this.button3_Click);
             // 
             // NOVO_ORÇAMENTO
             // 
@@ -831,6 +816,7 @@
             this.Controls.Add(this.orçamento);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.ADC_COMODO);
             this.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Name = "NOVO_ORÇAMENTO";
             this.Text = "NOVO_ORÇAMENTO";
@@ -839,16 +825,22 @@
             this.orçamento.ResumeLayout(false);
             this.orcamento.ResumeLayout(false);
             this.orcamento.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox_ADC.ResumeLayout(false);
             this.massa.ResumeLayout(false);
             this.massa.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox_ADC.ResumeLayout(false);
-            this.groupBox_ADC.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             this.pre_visualizacao.ResumeLayout(false);
             this.pre_visualizacao.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
@@ -856,16 +848,12 @@
         }
 
         #endregion
-
-        private Label label1;
         private ComboBox SERV_ORCAMENTO;
         private Label label2;
         private TextBox textBox1;
         private Label label3;
         private Label label4;
         private TextBox textBox2;
-        private Label label5;
-        private Label label6;
         private Label label7;
         private TextBox REJUNTE;
         private RadioButton ACII;
@@ -898,7 +886,6 @@
         private TabPage orcamento;
         private TextBox comprimento_m2;
         private TextBox largura_m2;
-        private Label label10;
         private TextBox txtresult_m2;
         private Label label11;
         private Label label13;
@@ -908,19 +895,22 @@
         private Label label20;
         private RadioButton radioButton5;
         private RadioButton radioButton2;
-        private Label label24;
         private Button ADC_COMODO;
         private GroupBox groupBox3;
         private GroupBox massa;
         private GroupBox groupBox1;
         private TextBox NOME_ARGAMASSA;
         private Label label25;
-        private Label adc_compri;
-        private TextBox ADC_COMPRIMENTO;
-        private TextBox ADC_LARGURA;
-        private Label larg_adc;
         private GroupBox groupBox_ADC;
         private GroupBox groupBox2;
         private GroupBox groupBox4;
+        private GroupBox groupBox7;
+        private GroupBox groupBox6;
+        private TextBox textBox5;
+        private Label label6;
+        private GroupBox groupBox8;
+        private GroupBox groupBox5;
+        private TextBox textBox4;
+        private Label label5;
     }
 }

@@ -123,3 +123,4 @@ C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\ref\FormsApp1.dll
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.FRM_SERVICO.resources
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.PINTURA.resources

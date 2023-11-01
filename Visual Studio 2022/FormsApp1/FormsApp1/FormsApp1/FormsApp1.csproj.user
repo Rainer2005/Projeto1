@@ -25,5 +25,8 @@
     <Compile Update="ORÇAMENTO_SIMPLES.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PAREDE.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
