@@ -19,13 +19,16 @@
     <Compile Update="MATERIAL.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="MURO.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="NOVO ORÇAMENTO.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ORÇAMENTO_SIMPLES.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PAREDE.cs">
+    <Compile Update="PINTURA.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
