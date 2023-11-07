@@ -65,5 +65,10 @@ namespace FormsApp1
             controle.editar(cliente);
             MessageBox.Show("Cliente editado com Sucesso");
         }
+
+        private void nome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using controle;
+using modelo;
+using MySqlX.XDevAPI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,11 +17,15 @@ namespace FormsApp1
 {
     public partial class NOVO_ORÇAMENTO : Form
     {
+
+        private const double dez_porcento = 0.1;
+        double sobra = 0;
         int compri = 0, larg = 0;
         float result = 0 ;
         float alt = 0;
         float larg_porc = 0 ;
         float larg1 = 0, altura = 0,m_porcelanato = 0;
+       
         float cem = 100, dez = 10, um = 1;
         float rejunte_alt = 0, rejunte_larg = 0, rejunte_v = 0, rejunte_m = 0;
         float expessura = 0, largura_junta = 0, rejunte_result = 0; 
@@ -97,6 +103,11 @@ namespace FormsApp1
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
         private void REJUNTE_TextChanged(object sender, EventArgs e)
         {
             rejunte_cr = Convert.ToInt16(1.62);
@@ -164,7 +175,10 @@ namespace FormsApp1
         private void quant_porcelanato_TextChanged(object sender, EventArgs e)
         {
             m_porcelanato = altura * larg1; //m² da peça de porcelanato
-            float res = result / m_porcelanato;
+            double res = result / m_porcelanato;
+           
+            sobra = dez_porcento * res;
+            res = res + sobra;
             txtquant_porcelanato.Text = res.ToString("#,##", new CultureInfo("pt-BR"));
             // txtquant_porcelanato.Text = Convert.ToString(res);
         }
@@ -188,6 +202,7 @@ namespace FormsApp1
 
         private void alt_porcelanato_TextChanged(object sender, EventArgs e)
         {
+            
             alt = float.Parse(alt_porcelanato.Text);
             altura = alt / cem; //convert em decimal
         }

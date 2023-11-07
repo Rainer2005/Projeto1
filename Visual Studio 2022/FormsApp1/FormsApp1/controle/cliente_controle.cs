@@ -28,6 +28,8 @@ namespace controle
             sqlCon.Close();//fecho a conexao
             return resultado;//retorno o valor
         }
+
+
         public bool excluir(int codigo)
         {
             bool resultado = false;

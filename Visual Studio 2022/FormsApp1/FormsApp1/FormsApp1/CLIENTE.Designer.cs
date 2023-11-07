@@ -78,6 +78,7 @@
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(333, 23);
             this.nome.TabIndex = 3;
+            this.nome.TextChanged += new System.EventHandler(this.nome_TextChanged);
             // 
             // numero
             // 
