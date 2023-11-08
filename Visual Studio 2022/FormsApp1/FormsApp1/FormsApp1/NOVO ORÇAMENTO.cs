@@ -23,9 +23,11 @@ namespace FormsApp1
         int compri = 0, larg = 0;
         float result = 0 ;
         float alt = 0;
+        float result1 = 0;
+        float result0 = 0;
         float larg_porc = 0 ;
         float larg1 = 0, altura = 0,m_porcelanato = 0;
-       
+        float adc_compri = 0, adc_larg = 0;
         float cem = 100, dez = 10, um = 1;
         float rejunte_alt = 0, rejunte_larg = 0, rejunte_v = 0, rejunte_m = 0;
         float expessura = 0, largura_junta = 0, rejunte_result = 0; 
@@ -59,7 +61,7 @@ namespace FormsApp1
 
         private void txtresult_m2_TextChanged(object sender, EventArgs e)
         {
-           
+            txtresult_m2.Text = Convert.ToString(result);
 
         }
 
@@ -67,8 +69,9 @@ namespace FormsApp1
         {
             larg = int.Parse(largura_m2.Text);
             result = (compri * larg);
-            txtresult_m2.Text = Convert.ToString(result);
-            textBox2.Text = Convert.ToString(result);
+           
+          
+         
         }
 
         private void comprimento_m2_TextChanged_1(object sender, EventArgs e)
@@ -106,6 +109,25 @@ namespace FormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void adc_largura_TextChanged(object sender, EventArgs e)
+        {
+            adc_larg = float.Parse(adc_largura.Text);
+            result1 = (adc_compri * adc_larg);
+            result0 = result1 + result;
+        }
+
+        private void M2_TextChanged(object sender, EventArgs e)
+        {
+            M2.Text = result0.ToString("#,## ", new CultureInfo("pt-BR"));
+        }
+
+        private void adc_comprimento_TextChanged(object sender, EventArgs e)
+        {
+            adc_compri = float.Parse(adc_comprimento.Text);
+            result1 = (adc_compri * adc_larg);
+            result0 = result1 + result;
         }
 
         private void REJUNTE_TextChanged(object sender, EventArgs e)
@@ -161,7 +183,7 @@ namespace FormsApp1
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-           
+            textBox2.Text = Convert.ToString(result);
         }
 
         private void largura_m2_Leave(object sender, EventArgs e)
