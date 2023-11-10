@@ -17,6 +17,8 @@ namespace FormsApp1
 {
     public partial class NOVO_ORÇAMENTO : Form
     {
+        cliente_modelo orcamento_porcelanato = new cliente_modelo();
+        cliente_controle controle = new cliente_controle();
 
         private const double dez_porcento = 0.1;
         double sobra = 0;
@@ -108,7 +110,19 @@ namespace FormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-          
+
+            orcamento_porcelanato.M2 = M2.Text;
+            orcamento_porcelanato.txtquant_porcelanato = txtquant_porcelanato.Text;
+            orcamento_porcelanato.ARG_TOTAL = ARG_TOTAL.Text;
+            orcamento_porcelanato.NOME_ARGAMASSA = NOME_ARGAMASSA.Text;
+            orcamento_porcelanato.REJUNTE = REJUNTE.Text;
+            orcamento_porcelanato.nivelador_total = nivelador_total.Text;
+            orcamento_porcelanato.local_aplicacao = local_aplicacao.Text;
+            orcamento_porcelanato.valor_mao_obra = valor_mao_obra.Text;
+
+            controle.cadastrar_orcamento(orcamento_porcelanato);
+            MessageBox.Show("Orçamento Salvo com Sucesso");
+
         }
 
         private void adc_largura_TextChanged(object sender, EventArgs e)

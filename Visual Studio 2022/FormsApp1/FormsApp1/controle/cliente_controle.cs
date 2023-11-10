@@ -29,6 +29,26 @@ namespace controle
             return resultado;//retorno o valor
         }
 
+        public bool cadastrar_orcamento(cliente_modelo orcamento_porcelanato)//passo o objeto usuario
+        {//declaro a variavel da resposta da query
+            bool resultado = false;
+            string sql = "insert into orcamento_porcelanato(M2,txtquant_porcelanato,ARG_TOTAL,NOME_ARGAMASSA,REJUNTE,nivelador_total,local_aplicacao,valor_mao_obra) " +
+                "values ('" + orcamento_porcelanato.M2 + "','" + orcamento_porcelanato.txtquant_porcelanato + "' , '" + orcamento_porcelanato.ARG_TOTAL + "' , '" + orcamento_porcelanato.NOME_ARGAMASSA + "' , '"+ orcamento_porcelanato.REJUNTE + "' , '" + orcamento_porcelanato.nivelador_total + "' , '"+ orcamento_porcelanato.local_aplicacao + "' , '"+ orcamento_porcelanato.valor_mao_obra    + "')";
+            //chamando minha conexao
+            MySqlConnection sqlCon = con.getConexao();
+            sqlCon.Open();//abrindo o banco
+            MySqlCommand cmd = new MySqlCommand(sql, sqlCon);
+            if (cmd.ExecuteNonQuery() >= 1)//executar o seu sql
+                resultado = true;
+            sqlCon.Close();//fecho a conexao
+            return resultado;//retorno o valor
+        }
+
+
+
+
+
+
 
         public bool excluir(int codigo)
         {

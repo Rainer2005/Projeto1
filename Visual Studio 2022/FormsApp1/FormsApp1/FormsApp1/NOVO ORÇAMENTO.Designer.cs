@@ -105,7 +105,7 @@
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.valor_mao_obra = new System.Windows.Forms.TextBox();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
@@ -113,6 +113,8 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.NOME_ARGAMASSA = new System.Windows.Forms.TextBox();
             this.ADC_COMODO = new System.Windows.Forms.Button();
+            this.local_aplicacao = new System.Windows.Forms.TextBox();
+            this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.orçamento.SuspendLayout();
             this.orcamento.SuspendLayout();
             this.LOCAL.SuspendLayout();
@@ -139,6 +141,7 @@
             this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox22.SuspendLayout();
             this.SuspendLayout();
             // 
             // SERV_ORCAMENTO
@@ -898,6 +901,7 @@
             // 
             // pre_visualizacao
             // 
+            this.pre_visualizacao.Controls.Add(this.groupBox22);
             this.pre_visualizacao.Controls.Add(this.groupBox5);
             this.pre_visualizacao.Controls.Add(this.resultado_m2);
             this.pre_visualizacao.Controls.Add(this.groupBox4);
@@ -957,18 +961,18 @@
             // 
             this.groupBox21.Controls.Add(this.M2);
             this.groupBox21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox21.Location = new System.Drawing.Point(242, 22);
+            this.groupBox21.Location = new System.Drawing.Point(272, 22);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(139, 56);
+            this.groupBox21.Size = new System.Drawing.Size(109, 56);
             this.groupBox21.TabIndex = 61;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "METROS²";
             // 
             // M2
             // 
-            this.M2.Location = new System.Drawing.Point(22, 22);
+            this.M2.Location = new System.Drawing.Point(6, 22);
             this.M2.Name = "M2";
-            this.M2.Size = new System.Drawing.Size(100, 23);
+            this.M2.Size = new System.Drawing.Size(97, 23);
             this.M2.TabIndex = 0;
             this.M2.TextChanged += new System.EventHandler(this.M2_TextChanged);
             // 
@@ -992,7 +996,7 @@
             // 
             // groupBox17
             // 
-            this.groupBox17.Controls.Add(this.textBox4);
+            this.groupBox17.Controls.Add(this.valor_mao_obra);
             this.groupBox17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox17.Location = new System.Drawing.Point(272, 322);
             this.groupBox17.Name = "groupBox17";
@@ -1001,12 +1005,12 @@
             this.groupBox17.TabStop = false;
             this.groupBox17.Text = "VALOR TOTAL";
             // 
-            // textBox4
+            // valor_mao_obra
             // 
-            this.textBox4.Location = new System.Drawing.Point(8, 17);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(95, 23);
-            this.textBox4.TabIndex = 56;
+            this.valor_mao_obra.Location = new System.Drawing.Point(8, 17);
+            this.valor_mao_obra.Name = "valor_mao_obra";
+            this.valor_mao_obra.Size = new System.Drawing.Size(95, 23);
+            this.valor_mao_obra.TabIndex = 56;
             // 
             // groupBox16
             // 
@@ -1083,6 +1087,23 @@
             this.ADC_COMODO.UseVisualStyleBackColor = false;
             this.ADC_COMODO.Click += new System.EventHandler(this.button3_Click);
             // 
+            // local_aplicacao
+            // 
+            this.local_aplicacao.Location = new System.Drawing.Point(19, 36);
+            this.local_aplicacao.Name = "local_aplicacao";
+            this.local_aplicacao.Size = new System.Drawing.Size(207, 23);
+            this.local_aplicacao.TabIndex = 62;
+            // 
+            // groupBox22
+            // 
+            this.groupBox22.Controls.Add(this.local_aplicacao);
+            this.groupBox22.Location = new System.Drawing.Point(453, 90);
+            this.groupBox22.Name = "groupBox22";
+            this.groupBox22.Size = new System.Drawing.Size(241, 76);
+            this.groupBox22.TabIndex = 63;
+            this.groupBox22.TabStop = false;
+            this.groupBox22.Text = "LOCAL APLICAÇÃO";
+            // 
             // NOVO_ORÇAMENTO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1144,6 +1165,8 @@
             this.groupBox13.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox22.ResumeLayout(false);
+            this.groupBox22.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1200,7 +1223,7 @@
         private Label label6;
         private GroupBox groupBox8;
         private GroupBox groupBox5;
-        private TextBox textBox4;
+        private TextBox valor_mao_obra;
         private GroupBox groupBox9;
         private GroupBox groupBox12;
         private TextBox textBox6;
@@ -1234,5 +1257,7 @@
         private Label label5;
         private GroupBox groupBox21;
         private TextBox M2;
+        private GroupBox groupBox22;
+        private TextBox local_aplicacao;
     }
 }
