@@ -34,14 +34,14 @@ namespace modelo
             endereco = null;
             telefone = null;//inicializo com 0      
             // ORCAMENTO PORCELANATO
-            M2 = "";
-            txtquant_porcelanato = "";
-            ARG_TOTAL = "";
-            NOME_ARGAMASSA = "";
-            REJUNTE = "";
-            nivelador_total = "";
-            local_aplicacao = "";
-            valor_mao_obra = "";
+            M2 = null;
+            txtquant_porcelanato = null;
+            ARG_TOTAL = null;
+            NOME_ARGAMASSA = null;
+            REJUNTE = null;
+            nivelador_total = null;
+            local_aplicacao = null;
+            valor_mao_obra = null;
     }
     }
 }

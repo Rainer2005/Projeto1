@@ -197,14 +197,14 @@ namespace FormsApp1
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            textBox2.Text = Convert.ToString(result);
+            metros_quadrado.Text = Convert.ToString(result);
         }
 
         private void largura_m2_Leave(object sender, EventArgs e)
         {
             result = (compri * larg);
             txtresult_m2.Text = Convert.ToString(result);
-            textBox2.Text = Convert.ToString(result);
+            metros_quadrado.Text = Convert.ToString(result);
              
         }
 

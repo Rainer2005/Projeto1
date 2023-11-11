@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.metros_quadrado = new System.Windows.Forms.TextBox();
             this.REJUNTE = new System.Windows.Forms.TextBox();
             this.ACII = new System.Windows.Forms.RadioButton();
             this.ACIII = new System.Windows.Forms.RadioButton();
@@ -96,6 +96,8 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.pre_visualizacao = new System.Windows.Forms.TabPage();
+            this.groupBox22 = new System.Windows.Forms.GroupBox();
+            this.local_aplicacao = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -113,8 +115,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.NOME_ARGAMASSA = new System.Windows.Forms.TextBox();
             this.ADC_COMODO = new System.Windows.Forms.Button();
-            this.local_aplicacao = new System.Windows.Forms.TextBox();
-            this.groupBox22 = new System.Windows.Forms.GroupBox();
             this.orçamento.SuspendLayout();
             this.orcamento.SuspendLayout();
             this.LOCAL.SuspendLayout();
@@ -131,6 +131,7 @@
             this.massa.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.pre_visualizacao.SuspendLayout();
+            this.groupBox22.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox21.SuspendLayout();
@@ -141,7 +142,6 @@
             this.groupBox14.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox22.SuspendLayout();
             this.SuspendLayout();
             // 
             // SERV_ORCAMENTO
@@ -185,16 +185,16 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "TAMANHO";
             // 
-            // textBox2
+            // metros_quadrado
             // 
-            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(11, 27);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(138, 23);
-            this.textBox2.TabIndex = 10;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            this.textBox2.Leave += new System.EventHandler(this.textBox2_TextChanged);
+            this.metros_quadrado.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.metros_quadrado.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.metros_quadrado.Location = new System.Drawing.Point(11, 27);
+            this.metros_quadrado.Name = "metros_quadrado";
+            this.metros_quadrado.Size = new System.Drawing.Size(138, 23);
+            this.metros_quadrado.TabIndex = 10;
+            this.metros_quadrado.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.metros_quadrado.Leave += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // REJUNTE
             // 
@@ -616,7 +616,7 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.textBox2);
+            this.groupBox9.Controls.Add(this.metros_quadrado);
             this.groupBox9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox9.ForeColor = System.Drawing.SystemColors.InfoText;
             this.groupBox9.Location = new System.Drawing.Point(190, 79);
@@ -913,6 +913,23 @@
             this.pre_visualizacao.Text = "PRÉ-VISUALIZAÇÃO";
             this.pre_visualizacao.UseVisualStyleBackColor = true;
             // 
+            // groupBox22
+            // 
+            this.groupBox22.Controls.Add(this.local_aplicacao);
+            this.groupBox22.Location = new System.Drawing.Point(453, 90);
+            this.groupBox22.Name = "groupBox22";
+            this.groupBox22.Size = new System.Drawing.Size(241, 76);
+            this.groupBox22.TabIndex = 63;
+            this.groupBox22.TabStop = false;
+            this.groupBox22.Text = "LOCAL APLICAÇÃO";
+            // 
+            // local_aplicacao
+            // 
+            this.local_aplicacao.Location = new System.Drawing.Point(19, 36);
+            this.local_aplicacao.Name = "local_aplicacao";
+            this.local_aplicacao.Size = new System.Drawing.Size(207, 23);
+            this.local_aplicacao.TabIndex = 62;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.textBox3);
@@ -1087,23 +1104,6 @@
             this.ADC_COMODO.UseVisualStyleBackColor = false;
             this.ADC_COMODO.Click += new System.EventHandler(this.button3_Click);
             // 
-            // local_aplicacao
-            // 
-            this.local_aplicacao.Location = new System.Drawing.Point(19, 36);
-            this.local_aplicacao.Name = "local_aplicacao";
-            this.local_aplicacao.Size = new System.Drawing.Size(207, 23);
-            this.local_aplicacao.TabIndex = 62;
-            // 
-            // groupBox22
-            // 
-            this.groupBox22.Controls.Add(this.local_aplicacao);
-            this.groupBox22.Location = new System.Drawing.Point(453, 90);
-            this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(241, 76);
-            this.groupBox22.TabIndex = 63;
-            this.groupBox22.TabStop = false;
-            this.groupBox22.Text = "LOCAL APLICAÇÃO";
-            // 
             // NOVO_ORÇAMENTO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1146,6 +1146,8 @@
             this.groupBox3.PerformLayout();
             this.pre_visualizacao.ResumeLayout(false);
             this.pre_visualizacao.PerformLayout();
+            this.groupBox22.ResumeLayout(false);
+            this.groupBox22.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -1165,8 +1167,6 @@
             this.groupBox13.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox22.ResumeLayout(false);
-            this.groupBox22.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1176,7 +1176,7 @@
         private Label label2;
         private TextBox textBox1;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox metros_quadrado;
         private TextBox REJUNTE;
         private RadioButton ACII;
         private RadioButton ACIII;

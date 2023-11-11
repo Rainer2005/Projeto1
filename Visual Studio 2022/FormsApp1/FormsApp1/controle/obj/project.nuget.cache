@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "igEHz24z8ls0L24y+lJrl+V385Or+m79vkvUDdO+RzDJ5Sw3e8WFRIscOq34yacx63EOybZFl7sWa5VDSGK7dg==",
+  "dgSpecHash": "TbXPsPWjyrBhHx52MLT8es3EGq74mveTlg0rDPS11G3QG8jHPwY8l/hFLSdLKA8y+Jbn80t2TeLNJk7lc9Jbdg==",
   "success": true,
   "projectFilePath": "C:\\Users\\aluno\\Documents\\GitHub\\Projeto1\\Visual Studio 2022\\FormsApp1\\FormsApp1\\controle\\controle.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aluno\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
@@ -11,8 +12,7 @@
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\aluno\\.nuget\\packages\\mysql.data\\8.1.0\\mysql.data.8.1.0.nupkg.sha512",
-    "C:\\Users\\aluno\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\aluno\\.nuget\\packages\\mysql.data\\8.2.0\\mysql.data.8.2.0.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
