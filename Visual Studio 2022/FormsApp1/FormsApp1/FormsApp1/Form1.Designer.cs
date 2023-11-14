@@ -31,7 +31,6 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.novo_orçamento3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.CAD_SERVICO = new System.Windows.Forms.Button();
@@ -60,7 +59,6 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
             this.tabPage1.Controls.Add(this.button5);
-            this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.novo_orçamento3);
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
@@ -73,7 +71,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button5.Location = new System.Drawing.Point(42, 161);
+            this.button5.Location = new System.Drawing.Point(224, 108);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(190, 42);
             this.button5.TabIndex = 2;
@@ -81,21 +79,10 @@
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(42, 99);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(190, 45);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "ORÇAMENTO SIMPLES";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // novo_orçamento3
             // 
             this.novo_orçamento3.BackColor = System.Drawing.Color.White;
-            this.novo_orçamento3.Location = new System.Drawing.Point(42, 38);
+            this.novo_orçamento3.Location = new System.Drawing.Point(224, 56);
             this.novo_orçamento3.Name = "novo_orçamento3";
             this.novo_orçamento3.Size = new System.Drawing.Size(190, 46);
             this.novo_orçamento3.TabIndex = 0;
@@ -119,7 +106,7 @@
             // CAD_SERVICO
             // 
             this.CAD_SERVICO.BackColor = System.Drawing.Color.White;
-            this.CAD_SERVICO.Location = new System.Drawing.Point(27, 31);
+            this.CAD_SERVICO.Location = new System.Drawing.Point(184, 45);
             this.CAD_SERVICO.Name = "CAD_SERVICO";
             this.CAD_SERVICO.Size = new System.Drawing.Size(207, 47);
             this.CAD_SERVICO.TabIndex = 2;
@@ -130,7 +117,7 @@
             // CAD_CLIENTE
             // 
             this.CAD_CLIENTE.BackColor = System.Drawing.Color.White;
-            this.CAD_CLIENTE.Location = new System.Drawing.Point(27, 98);
+            this.CAD_CLIENTE.Location = new System.Drawing.Point(184, 98);
             this.CAD_CLIENTE.Name = "CAD_CLIENTE";
             this.CAD_CLIENTE.Size = new System.Drawing.Size(207, 48);
             this.CAD_CLIENTE.TabIndex = 1;
@@ -153,7 +140,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(32, 99);
+            this.button7.Location = new System.Drawing.Point(175, 99);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(208, 44);
             this.button7.TabIndex = 1;
@@ -164,7 +151,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(32, 38);
+            this.button6.Location = new System.Drawing.Point(175, 48);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(208, 45);
             this.button6.TabIndex = 0;
@@ -193,7 +180,6 @@
         private TabControl tabControl1;
         private TabPage tabPage1;
         private Button button5;
-        private Button button4;
         private Button novo_orçamento3;
         private TabPage tabPage2;
         private Button CAD_SERVICO;

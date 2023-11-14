@@ -33,6 +33,7 @@ namespace modelo
             nome = null;
             endereco = null;
             telefone = null;//inicializo com 0      
+
             // ORCAMENTO PORCELANATO
             M2 = null;
             txtquant_porcelanato = null;

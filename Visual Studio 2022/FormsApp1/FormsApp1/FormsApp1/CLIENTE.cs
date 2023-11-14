@@ -17,6 +17,7 @@ namespace FormsApp1
         int codigo;
         cliente_modelo cliente = new cliente_modelo(); 
         cliente_controle controle = new cliente_controle();
+       
         public CLIENTE()
         {
             InitializeComponent();
