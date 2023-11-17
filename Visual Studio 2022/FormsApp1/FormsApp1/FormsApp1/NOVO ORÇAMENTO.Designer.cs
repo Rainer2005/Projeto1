@@ -448,6 +448,7 @@
             this.LOCAL.TabIndex = 75;
             this.LOCAL.TabStop = false;
             this.LOCAL.Text = "LOCAL";
+            this.LOCAL.Enter += new System.EventHandler(this.LOCAL_Enter);
             // 
             // radioButton11
             // 
@@ -929,6 +930,7 @@
             this.local_aplicacao.Name = "local_aplicacao";
             this.local_aplicacao.Size = new System.Drawing.Size(207, 23);
             this.local_aplicacao.TabIndex = 62;
+            this.local_aplicacao.TextChanged += new System.EventHandler(this.local_aplicacao_TextChanged);
             // 
             // groupBox5
             // 

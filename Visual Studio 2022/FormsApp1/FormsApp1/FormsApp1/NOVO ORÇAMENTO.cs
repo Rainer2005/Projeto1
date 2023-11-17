@@ -134,7 +134,21 @@ namespace FormsApp1
 
         private void M2_TextChanged(object sender, EventArgs e)
         {
+          //  M2.Text = metros_quadrado.ToString("#,## ", new CultureInfo("pt-BR"));
             M2.Text = result0.ToString("#,## ", new CultureInfo("pt-BR"));
+        }
+
+        private void local_aplicacao_TextChanged(object sender, EventArgs e)
+        {
+                string loc = "";
+                loc = LOCAL.Controls.OfType<RadioButton>().SingleOrDefault(RadioButton => RadioButton.Checked).Text; // selelcionar botão
+                local_aplicacao.Text = loc;
+
+        }
+
+        private void LOCAL_Enter(object sender, EventArgs e)
+        {
+            
         }
 
         private void adc_comprimento_TextChanged(object sender, EventArgs e)
