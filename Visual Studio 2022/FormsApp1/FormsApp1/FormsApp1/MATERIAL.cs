@@ -13,6 +13,12 @@ using controle;
 
 namespace FormsApp1
 {
+   
+
+
+
+
+
     public partial class FRM_SERVICO : Form
     {
         public FRM_SERVICO()
@@ -27,10 +33,10 @@ namespace FormsApp1
 
         private void MATERIAL_Load(object sender, EventArgs e)
         {
-            cliente_controle con = new cliente_controle();
-            SERVICO.DataSource = con.obterdados("select *from serviço ");
-            SERVICO.ValueMember = "ID_SERVICO";
-            SERVICO.DisplayMember = "SERVICO";
+           // cliente_controle con = new cliente_controle();
+           // SERVICO.DataSource = con.obterdados("select *from serviço ");
+           // SERVICO.ValueMember = "ID_SERVICO";
+           // SERVICO.DisplayMember = "SERVICO";
 
             
         }
@@ -53,6 +59,18 @@ namespace FormsApp1
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void cadastro_servico_Enter(object sender, EventArgs e)
+        {
+          
+
+        }
+
+        private void teste1_TextChanged(object sender, EventArgs e)
+        {
+            
+          
         }
     }
 }

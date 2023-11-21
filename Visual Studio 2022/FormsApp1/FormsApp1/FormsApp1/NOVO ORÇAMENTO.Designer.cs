@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SERV_ORCAMENTO = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -123,7 +122,6 @@
             this.groupBox12.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox_ADC.SuspendLayout();
@@ -143,16 +141,6 @@
             this.groupBox13.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // SERV_ORCAMENTO
-            // 
-            this.SERV_ORCAMENTO.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SERV_ORCAMENTO.FormattingEnabled = true;
-            this.SERV_ORCAMENTO.Location = new System.Drawing.Point(12, 26);
-            this.SERV_ORCAMENTO.Name = "SERV_ORCAMENTO";
-            this.SERV_ORCAMENTO.Size = new System.Drawing.Size(142, 23);
-            this.SERV_ORCAMENTO.TabIndex = 2;
-            this.SERV_ORCAMENTO.SelectedIndexChanged += new System.EventHandler(this.SERV_ORCAMENTO_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -714,7 +702,6 @@
             this.txtresult_m2.Name = "txtresult_m2";
             this.txtresult_m2.Size = new System.Drawing.Size(71, 23);
             this.txtresult_m2.TabIndex = 54;
-            this.txtresult_m2.TextChanged += new System.EventHandler(this.txtresult_m2_TextChanged);
             // 
             // largura_m2
             // 
@@ -728,7 +715,6 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.SERV_ORCAMENTO);
             this.groupBox7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox7.ForeColor = System.Drawing.SystemColors.InfoText;
             this.groupBox7.Location = new System.Drawing.Point(6, 79);
@@ -1134,7 +1120,6 @@
             this.groupBox9.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox8.ResumeLayout(false);
@@ -1174,7 +1159,6 @@
         }
 
         #endregion
-        private ComboBox SERV_ORCAMENTO;
         private Label label2;
         private TextBox textBox1;
         private Label label3;

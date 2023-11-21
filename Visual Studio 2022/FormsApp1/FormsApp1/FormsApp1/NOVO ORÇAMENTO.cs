@@ -46,18 +46,15 @@ namespace FormsApp1
 
         private void NOVO_ORÇAMENTO_Load(object sender, EventArgs e)
         {
-            cliente_controle con = new cliente_controle();
-            SERV_ORCAMENTO.DataSource = con.obterdados("select *from serviço ");
-            SERV_ORCAMENTO.ValueMember = "ID_SERVICO";
-            SERV_ORCAMENTO.DisplayMember = "SERVICO";
+          //  cliente_controle con = new cliente_controle();
+          //  SERV_ORCAMENTO.DataSource = con.obterdados("select *from serviço ");
+          //  SERV_ORCAMENTO.ValueMember = "ID_SERVICO";
+         //   SERV_ORCAMENTO.DisplayMember = "SERVICO";
         }
 
         private void SERV_ORCAMENTO_SelectedIndexChanged(object sender, EventArgs e)
         {
-             if(SERV_ORCAMENTO != null)
-            {
-               
-            }
+         
         
         }
 
@@ -84,9 +81,10 @@ namespace FormsApp1
         private void NOME_ARGAMASSA_TextChanged(object sender, EventArgs e)
         {
             string rs = "";
+
             rs = massa.Controls.OfType<RadioButton>().SingleOrDefault(RadioButton => RadioButton.Checked).Text; // selelcionar botão
             NOME_ARGAMASSA.Text = rs;
-        }
+        } 
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -149,6 +147,11 @@ namespace FormsApp1
         private void LOCAL_Enter(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtresult_m2_TabIndexChanged(object sender, EventArgs e)
+        {
+            txtresult_m2.Text = Convert.ToString(result);
         }
 
         private void adc_comprimento_TextChanged(object sender, EventArgs e)
