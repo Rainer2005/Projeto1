@@ -1,5 +1,7 @@
 namespace FormsApp1
 {
+
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -9,8 +11,10 @@ namespace FormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            NOVO_ORÇAMENTO NOVO = new NOVO_ORÇAMENTO();
-            NOVO.ShowDialog();
+          //  NOVO_ORÇAMENTO NOVO = new NOVO_ORÇAMENTO();
+           // NOVO.ShowDialog();
+            NOVO_ORC NV = new NOVO_ORC();
+            coluna2 = NV ;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -50,6 +54,11 @@ namespace FormsApp1
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
