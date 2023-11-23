@@ -12,15 +12,6 @@ namespace FormsApp1
 {
     public partial class NOVO_ORC : Form
     {
-        public NOVO_ORC()
-        {
-            InitializeComponent();
-        }
 
-        public static implicit operator TableLayoutPanel(NOVO_ORC NV)
-        {
-            //verificar
-            throw new NotImplementedException();
-        }
     }
 }

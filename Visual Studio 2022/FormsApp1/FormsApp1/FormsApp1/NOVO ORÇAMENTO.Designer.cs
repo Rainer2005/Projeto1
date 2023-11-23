@@ -935,7 +935,7 @@
             this.groupBox21.Size = new System.Drawing.Size(109, 56);
             this.groupBox21.TabIndex = 61;
             this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "METROS²";
+            this.groupBox21.Text = "METROS2";
             // 
             // M2
             // 
