@@ -40,5 +40,8 @@
     <Compile Update="TelaFinal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VISUALIZAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

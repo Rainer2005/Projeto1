@@ -16,7 +16,7 @@ namespace FormsApp1
         float alturap1 = 0, largurap1 = 0, resultadop1 = 0; // tamanho porcelanato
 
 
-
+        11
         public ORCAMENTO()
         {
             InitializeComponent();
