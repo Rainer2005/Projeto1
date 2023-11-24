@@ -154,6 +154,41 @@ namespace FormsApp1
             txtresult_m2.Text = Convert.ToString(result);
         }
 
+        private void txtresult_m2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void REJUNTE_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comprimento_m2_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void largura_m2_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void M2_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void alt_porcelanato_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox11_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void adc_comprimento_TextChanged(object sender, EventArgs e)
         {
             adc_compri = float.Parse(adc_comprimento.Text);

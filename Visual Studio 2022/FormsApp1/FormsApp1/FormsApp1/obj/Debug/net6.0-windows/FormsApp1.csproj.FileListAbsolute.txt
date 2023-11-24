@@ -176,4 +176,4 @@ C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.orcamento_final.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.TelaFinal.resources
-C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.NOVO_ORC.resources
+C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.ORCAMENTO.resources

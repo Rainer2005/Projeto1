@@ -25,7 +25,7 @@
     <Compile Update="NOVO ORÇAMENTO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="NOVO_ORC.cs">
+    <Compile Update="ORCAMENTO.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="orcamento_final.cs">

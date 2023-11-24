@@ -11,10 +11,9 @@ namespace FormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-           // NOVO_ORÇAMENTO NOVO = new NOVO_ORÇAMENTO();
-           // NOVO.ShowDialog();
-            NOVO_ORC NV = new NOVO_ORC();
-            NV.ShowDialog();
+           ORCAMENTO NOVO = new ORCAMENTO();
+           NOVO.ShowDialog();
+           
         }
 
         private void button4_Click(object sender, EventArgs e)

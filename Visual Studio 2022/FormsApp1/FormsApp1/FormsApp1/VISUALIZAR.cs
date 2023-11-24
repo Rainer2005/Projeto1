@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace FormsApp1
 {
-    public partial class NOVO_ORC : Form
+    public partial class VISUALIZAR : Form
     {
-
+        public VISUALIZAR()
+        {
+            InitializeComponent();
+        }
     }
 }

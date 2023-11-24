@@ -464,6 +464,7 @@
             this.comprimento_m2.Name = "comprimento_m2";
             this.comprimento_m2.Size = new System.Drawing.Size(107, 23);
             this.comprimento_m2.TabIndex = 52;
+            this.comprimento_m2.TextChanged += new System.EventHandler(this.comprimento_m2_TextChanged_2);
             // 
             // label13
             // 
@@ -494,6 +495,7 @@
             this.txtresult_m2.Name = "txtresult_m2";
             this.txtresult_m2.Size = new System.Drawing.Size(71, 23);
             this.txtresult_m2.TabIndex = 54;
+            this.txtresult_m2.TextChanged += new System.EventHandler(this.txtresult_m2_TextChanged_1);
             // 
             // largura_m2
             // 
@@ -503,6 +505,7 @@
             this.largura_m2.Name = "largura_m2";
             this.largura_m2.Size = new System.Drawing.Size(65, 23);
             this.largura_m2.TabIndex = 53;
+            this.largura_m2.TextChanged += new System.EventHandler(this.largura_m2_TextChanged_2);
             // 
             // groupBox7
             // 
@@ -608,6 +611,7 @@
             this.alt_porcelanato.Name = "alt_porcelanato";
             this.alt_porcelanato.Size = new System.Drawing.Size(31, 23);
             this.alt_porcelanato.TabIndex = 34;
+            this.alt_porcelanato.TextChanged += new System.EventHandler(this.alt_porcelanato_TextChanged_1);
             // 
             // label14
             // 
@@ -719,6 +723,7 @@
             this.groupBox11.TabIndex = 73;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "NIVELADOR/ESPAÇADOR";
+            this.groupBox11.Enter += new System.EventHandler(this.groupBox11_Enter);
             // 
             // radioButton7
             // 
@@ -943,6 +948,7 @@
             this.M2.Name = "M2";
             this.M2.Size = new System.Drawing.Size(97, 23);
             this.M2.TabIndex = 0;
+            this.M2.TextChanged += new System.EventHandler(this.M2_TextChanged_1);
             // 
             // groupBox18
             // 
@@ -997,6 +1003,7 @@
             this.REJUNTE.Name = "REJUNTE";
             this.REJUNTE.Size = new System.Drawing.Size(205, 23);
             this.REJUNTE.TabIndex = 15;
+            this.REJUNTE.TextChanged += new System.EventHandler(this.REJUNTE_TextChanged_1);
             // 
             // groupBox15
             // 
