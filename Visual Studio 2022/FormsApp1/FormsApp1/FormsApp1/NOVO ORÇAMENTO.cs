@@ -189,6 +189,11 @@ namespace FormsApp1
 
         }
 
+        private void txtquant_porcelanato_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void adc_comprimento_TextChanged(object sender, EventArgs e)
         {
             adc_compri = float.Parse(adc_comprimento.Text);

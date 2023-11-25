@@ -1022,6 +1022,7 @@
             this.txtquant_porcelanato.Name = "txtquant_porcelanato";
             this.txtquant_porcelanato.Size = new System.Drawing.Size(205, 23);
             this.txtquant_porcelanato.TabIndex = 38;
+            this.txtquant_porcelanato.TextChanged += new System.EventHandler(this.txtquant_porcelanato_TextChanged);
             // 
             // groupBox14
             // 
