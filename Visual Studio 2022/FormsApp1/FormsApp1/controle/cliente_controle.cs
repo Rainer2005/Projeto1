@@ -32,8 +32,8 @@ namespace controle
         public bool cadastrar_orcamento(cliente_modelo orcamento_porcelanato)//passo o objeto usuario
         {//declaro a variavel da resposta da query
             bool resultado = false;
-            string sql = "insert into orcamento_porcelanato(M2,txtquant_porcelanato,ARG_TOTAL,NOME_ARGAMASSA,REJUNTE,nivelador_total,local_aplicacao,valor_mao_obra) " +
-                "values ('" + orcamento_porcelanato.M2 + "','" + orcamento_porcelanato.txtquant_porcelanato + "' , '" + orcamento_porcelanato.ARG_TOTAL + "' , '" + orcamento_porcelanato.NOME_ARGAMASSA + "' , '"+ orcamento_porcelanato.REJUNTE + "' , '" + orcamento_porcelanato.nivelador_total + "' , '"+ orcamento_porcelanato.local_aplicacao + "' , '"+ orcamento_porcelanato.valor_mao_obra    + "')";
+            string sql = "insert into orcamento_porcelanato(tela_m2,tela_porcelanato,tela_argamassa,tela_tipoarg,tela_rejunte,tela_nivelador,local_apli,tela_valor_total) " +
+                "values ('" + orcamento_porcelanato.tela_m2 + "','" + orcamento_porcelanato.tela_porcelanato + "' , '" + orcamento_porcelanato.tela_argamassa + "' , '" + orcamento_porcelanato.tela_tipoarg + "' , '"+ orcamento_porcelanato.tela_rejunte + "' , '" + orcamento_porcelanato.tela_nivelador + "' , '"+ orcamento_porcelanato.local_apli + "' , '"+ orcamento_porcelanato.tela_valor_total + "')";
             //chamando minha conexao
             MySqlConnection sqlCon = con.getConexao();
             sqlCon.Open();//abrindo o banco

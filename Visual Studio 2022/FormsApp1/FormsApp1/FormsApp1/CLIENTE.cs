@@ -71,5 +71,10 @@ namespace FormsApp1
         {
 
         }
+
+        private void TXT_CODIGO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

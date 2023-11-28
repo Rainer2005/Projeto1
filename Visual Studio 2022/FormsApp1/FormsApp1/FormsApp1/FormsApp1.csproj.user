@@ -22,9 +22,6 @@
     <Compile Update="MURO.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="NOVO ORÇAMENTO.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="ORCAMENTO.cs">
       <SubType>Form</SubType>
     </Compile>

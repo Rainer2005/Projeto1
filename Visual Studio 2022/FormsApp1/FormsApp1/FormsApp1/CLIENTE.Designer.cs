@@ -155,6 +155,7 @@
             this.TXT_CODIGO.Name = "TXT_CODIGO";
             this.TXT_CODIGO.Size = new System.Drawing.Size(333, 23);
             this.TXT_CODIGO.TabIndex = 10;
+            this.TXT_CODIGO.TextChanged += new System.EventHandler(this.TXT_CODIGO_TextChanged);
             // 
             // dataGridView1
             // 

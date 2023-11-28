@@ -65,7 +65,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.m2 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -82,8 +82,8 @@
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton19 = new System.Windows.Forms.RadioButton();
             this.radioButton20 = new System.Windows.Forms.RadioButton();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
+            this.arg_tipo = new System.Windows.Forms.GroupBox();
+            this.arg_table = new System.Windows.Forms.TableLayoutPanel();
             this.radioButton21 = new System.Windows.Forms.RadioButton();
             this.radioButton22 = new System.Windows.Forms.RadioButton();
             this.radioButton23 = new System.Windows.Forms.RadioButton();
@@ -118,6 +118,8 @@
             this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
             this.lc_apli = new System.Windows.Forms.GroupBox();
             this.local_apli = new System.Windows.Forms.TextBox();
+            this.groupBox21 = new System.Windows.Forms.GroupBox();
+            this.tela_valor_total = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -192,8 +194,8 @@
             this.tableLayoutPanel20.SuspendLayout();
             this.groupBox20.SuspendLayout();
             this.tableLayoutPanel21.SuspendLayout();
-            this.groupBox21.SuspendLayout();
-            this.tableLayoutPanel22.SuspendLayout();
+            this.arg_tipo.SuspendLayout();
+            this.arg_table.SuspendLayout();
             this.groupBox22.SuspendLayout();
             this.tableLayoutPanel23.SuspendLayout();
             this.groupBox23.SuspendLayout();
@@ -212,6 +214,7 @@
             this.groupBox31.SuspendLayout();
             this.tableLayoutPanel26.SuspendLayout();
             this.lc_apli.SuspendLayout();
+            this.groupBox21.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -371,7 +374,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(125, 50);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(318, 23);
+            this.textBox1.Size = new System.Drawing.Size(308, 23);
             this.textBox1.TabIndex = 0;
             // 
             // groupBox3
@@ -443,7 +446,7 @@
             // 
             this.resultadom2.Location = new System.Drawing.Point(318, 63);
             this.resultadom2.Name = "resultadom2";
-            this.resultadom2.Size = new System.Drawing.Size(125, 23);
+            this.resultadom2.Size = new System.Drawing.Size(115, 23);
             this.resultadom2.TabIndex = 2;
             this.resultadom2.TextChanged += new System.EventHandler(this.resultadom2_TextChanged_1);
             // 
@@ -649,7 +652,7 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.textBox3);
+            this.groupBox6.Controls.Add(this.m2);
             this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox6.Location = new System.Drawing.Point(230, 3);
             this.groupBox6.Name = "groupBox6";
@@ -658,12 +661,12 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Metros²";
             // 
-            // textBox3
+            // m2
             // 
-            this.textBox3.Location = new System.Drawing.Point(20, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(186, 23);
-            this.textBox3.TabIndex = 0;
+            this.m2.Location = new System.Drawing.Point(20, 52);
+            this.m2.Name = "m2";
+            this.m2.Size = new System.Drawing.Size(186, 23);
+            this.m2.TabIndex = 0;
             // 
             // tableLayoutPanel19
             // 
@@ -787,7 +790,7 @@
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel20.Controls.Add(this.groupBox20, 0, 0);
-            this.tableLayoutPanel20.Controls.Add(this.groupBox21, 1, 0);
+            this.tableLayoutPanel20.Controls.Add(this.arg_tipo, 1, 0);
             this.tableLayoutPanel20.Controls.Add(this.groupBox22, 0, 1);
             this.tableLayoutPanel20.Controls.Add(this.groupBox23, 1, 1);
             this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -854,37 +857,37 @@
             this.radioButton20.Text = "NÃO";
             this.radioButton20.UseVisualStyleBackColor = true;
             // 
-            // groupBox21
+            // arg_tipo
             // 
-            this.groupBox21.Controls.Add(this.tableLayoutPanel22);
-            this.groupBox21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox21.Location = new System.Drawing.Point(224, 3);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(216, 77);
-            this.groupBox21.TabIndex = 1;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "Argamassa";
+            this.arg_tipo.Controls.Add(this.arg_table);
+            this.arg_tipo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.arg_tipo.Location = new System.Drawing.Point(224, 3);
+            this.arg_tipo.Name = "arg_tipo";
+            this.arg_tipo.Size = new System.Drawing.Size(216, 77);
+            this.arg_tipo.TabIndex = 1;
+            this.arg_tipo.TabStop = false;
+            this.arg_tipo.Text = "Argamassa";
             // 
-            // tableLayoutPanel22
+            // arg_table
             // 
-            this.tableLayoutPanel22.ColumnCount = 5;
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.52632F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.52632F));
-            this.tableLayoutPanel22.Controls.Add(this.radioButton21, 1, 1);
-            this.tableLayoutPanel22.Controls.Add(this.radioButton22, 2, 1);
-            this.tableLayoutPanel22.Controls.Add(this.radioButton23, 3, 1);
-            this.tableLayoutPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel22.Location = new System.Drawing.Point(3, 19);
-            this.tableLayoutPanel22.Name = "tableLayoutPanel22";
-            this.tableLayoutPanel22.RowCount = 3;
-            this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel22.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel22.Size = new System.Drawing.Size(210, 55);
-            this.tableLayoutPanel22.TabIndex = 0;
+            this.arg_table.ColumnCount = 5;
+            this.arg_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.52632F));
+            this.arg_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
+            this.arg_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
+            this.arg_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.31579F));
+            this.arg_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.52632F));
+            this.arg_table.Controls.Add(this.radioButton21, 1, 1);
+            this.arg_table.Controls.Add(this.radioButton22, 2, 1);
+            this.arg_table.Controls.Add(this.radioButton23, 3, 1);
+            this.arg_table.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.arg_table.Location = new System.Drawing.Point(3, 19);
+            this.arg_table.Name = "arg_table";
+            this.arg_table.RowCount = 3;
+            this.arg_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.arg_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.arg_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.arg_table.Size = new System.Drawing.Size(210, 55);
+            this.arg_table.TabIndex = 0;
             // 
             // radioButton21
             // 
@@ -1023,6 +1026,7 @@
             this.SALVAR.TabIndex = 3;
             this.SALVAR.Text = "SALVAR";
             this.SALVAR.UseVisualStyleBackColor = true;
+            this.SALVAR.Click += new System.EventHandler(this.SALVAR_Click_1);
             // 
             // tabPage2
             // 
@@ -1057,6 +1061,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel25, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel26, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.groupBox21, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -1150,6 +1155,7 @@
             this.tela_tipoarg.Name = "tela_tipoarg";
             this.tela_tipoarg.Size = new System.Drawing.Size(254, 23);
             this.tela_tipoarg.TabIndex = 0;
+            this.tela_tipoarg.TextChanged += new System.EventHandler(this.tela_tipoarg_TextChanged);
             // 
             // groupBox27
             // 
@@ -1209,6 +1215,7 @@
             this.tela_nivelador.Name = "tela_nivelador";
             this.tela_nivelador.Size = new System.Drawing.Size(254, 23);
             this.tela_nivelador.TabIndex = 0;
+            this.tela_nivelador.TextChanged += new System.EventHandler(this.tela_nivelador_TextChanged);
             // 
             // groupBox30
             // 
@@ -1282,11 +1289,28 @@
             // 
             // local_apli
             // 
-            this.local_apli.Location = new System.Drawing.Point(6, 39);
+            this.local_apli.Location = new System.Drawing.Point(16, 39);
             this.local_apli.Name = "local_apli";
-            this.local_apli.Size = new System.Drawing.Size(329, 23);
+            this.local_apli.Size = new System.Drawing.Size(321, 23);
             this.local_apli.TabIndex = 0;
             this.local_apli.TextChanged += new System.EventHandler(this.local_apli_TextChanged);
+            // 
+            // groupBox21
+            // 
+            this.groupBox21.Controls.Add(this.tela_valor_total);
+            this.groupBox21.Location = new System.Drawing.Point(638, 3);
+            this.groupBox21.Name = "groupBox21";
+            this.groupBox21.Size = new System.Drawing.Size(268, 133);
+            this.groupBox21.TabIndex = 3;
+            this.groupBox21.TabStop = false;
+            this.groupBox21.Text = "groupBox21";
+            // 
+            // tela_valor_total
+            // 
+            this.tela_valor_total.Location = new System.Drawing.Point(41, 39);
+            this.tela_valor_total.Name = "tela_valor_total";
+            this.tela_valor_total.Size = new System.Drawing.Size(186, 23);
+            this.tela_valor_total.TabIndex = 0;
             // 
             // tableLayoutPanel6
             // 
@@ -1944,6 +1968,7 @@
             this.Controls.Add(this.tabControl1);
             this.Name = "ORCAMENTO";
             this.Text = "ORCAMENTO";
+            this.Load += new System.EventHandler(this.ORCAMENTO_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tableLayoutPanel12.ResumeLayout(false);
@@ -1972,9 +1997,9 @@
             this.groupBox20.ResumeLayout(false);
             this.tableLayoutPanel21.ResumeLayout(false);
             this.tableLayoutPanel21.PerformLayout();
-            this.groupBox21.ResumeLayout(false);
-            this.tableLayoutPanel22.ResumeLayout(false);
-            this.tableLayoutPanel22.PerformLayout();
+            this.arg_tipo.ResumeLayout(false);
+            this.arg_table.ResumeLayout(false);
+            this.arg_table.PerformLayout();
             this.groupBox22.ResumeLayout(false);
             this.tableLayoutPanel23.ResumeLayout(false);
             this.tableLayoutPanel23.PerformLayout();
@@ -2004,6 +2029,8 @@
             this.tableLayoutPanel26.ResumeLayout(false);
             this.lc_apli.ResumeLayout(false);
             this.lc_apli.PerformLayout();
+            this.groupBox21.ResumeLayout(false);
+            this.groupBox21.PerformLayout();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -2079,7 +2106,7 @@
         private GroupBox groupBox5;
         private TextBox textBox4;
         private GroupBox groupBox6;
-        private TextBox textBox3;
+        private TextBox m2;
         private TableLayoutPanel tableLayoutPanel19;
         private GroupBox groupBox18;
         private Label label19;
@@ -2096,8 +2123,8 @@
         private TableLayoutPanel tableLayoutPanel21;
         private RadioButton radioButton19;
         private RadioButton radioButton20;
-        private GroupBox groupBox21;
-        private TableLayoutPanel tableLayoutPanel22;
+        private GroupBox arg_tipo;
+        private TableLayoutPanel arg_table;
         private RadioButton radioButton21;
         private RadioButton radioButton22;
         private RadioButton radioButton23;
@@ -2186,5 +2213,7 @@
         private TableLayoutPanel tableLayoutPanel26;
         private GroupBox lc_apli;
         private TextBox local_apli;
+        private GroupBox groupBox21;
+        private TextBox tela_valor_total;
     }
 }

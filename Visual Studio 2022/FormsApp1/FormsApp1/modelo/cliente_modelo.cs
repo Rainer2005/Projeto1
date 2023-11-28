@@ -16,14 +16,14 @@ namespace modelo
         public string endereco;//inclui o perfil usuario
 
         // ORCAMENTO PORCELANATO
-        public string M2;
-        public string txtquant_porcelanato;
-        public string ARG_TOTAL;
-        public string NOME_ARGAMASSA;
-        public string REJUNTE;
-        public string nivelador_total;
-        public string local_aplicacao;
-        public string valor_mao_obra;
+        public string tela_m2;
+        public string tela_porcelanato;
+        public string tela_argamassa;
+        public string tela_tipoarg;
+        public string tela_rejunte;
+        public string tela_nivelador;
+        public string local_apli;
+        public string tela_valor_total;
 
 
         //construtor da classe modelo usuario
@@ -35,14 +35,14 @@ namespace modelo
             telefone = null;//inicializo com 0      
 
             // ORCAMENTO PORCELANATO
-            M2 = null;
-            txtquant_porcelanato = null;
-            ARG_TOTAL = null;
-            NOME_ARGAMASSA = null;
-            REJUNTE = null;
-            nivelador_total = null;
-            local_aplicacao = null;
-            valor_mao_obra = null;
+            tela_m2 = null;
+            tela_porcelanato = null;
+            tela_argamassa = null;
+            tela_tipoarg = null;
+            tela_rejunte = null;
+            tela_nivelador = null;
+            local_apli = null;
+            tela_valor_total = null;
     }
     }
 }
