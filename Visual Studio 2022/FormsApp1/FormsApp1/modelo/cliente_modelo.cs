@@ -25,6 +25,10 @@ namespace modelo
         public string local_apli;
         public string tela_valor_total;
 
+        // serviço
+        public string servico;
+        public string valor;
+
 
         //construtor da classe modelo usuario
         public cliente_modelo()
@@ -43,6 +47,10 @@ namespace modelo
             tela_nivelador = null;
             local_apli = null;
             tela_valor_total = null;
+
+            //servico
+            servico = null;
+            valor = null;
     }
     }
 }

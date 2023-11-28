@@ -114,12 +114,10 @@
             this.groupBox30 = new System.Windows.Forms.GroupBox();
             this.tela_disco = new System.Windows.Forms.TextBox();
             this.groupBox31 = new System.Windows.Forms.GroupBox();
-            this.tela_valortotal = new System.Windows.Forms.TextBox();
+            this.tela_valor_total = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
             this.lc_apli = new System.Windows.Forms.GroupBox();
             this.local_apli = new System.Windows.Forms.TextBox();
-            this.groupBox21 = new System.Windows.Forms.GroupBox();
-            this.tela_valor_total = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -214,7 +212,6 @@
             this.groupBox31.SuspendLayout();
             this.tableLayoutPanel26.SuspendLayout();
             this.lc_apli.SuspendLayout();
-            this.groupBox21.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
@@ -1061,7 +1058,6 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel25, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel26, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.groupBox21, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -1238,7 +1234,7 @@
             // 
             // groupBox31
             // 
-            this.groupBox31.Controls.Add(this.tela_valortotal);
+            this.groupBox31.Controls.Add(this.tela_valor_total);
             this.groupBox31.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox31.Location = new System.Drawing.Point(3, 509);
             this.groupBox31.Name = "groupBox31";
@@ -1247,13 +1243,13 @@
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "Valor da Mão de Obra";
             // 
-            // tela_valortotal
+            // tela_valor_total
             // 
-            this.tela_valortotal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tela_valortotal.Location = new System.Drawing.Point(3, 19);
-            this.tela_valortotal.Name = "tela_valortotal";
-            this.tela_valortotal.Size = new System.Drawing.Size(254, 23);
-            this.tela_valortotal.TabIndex = 0;
+            this.tela_valor_total.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tela_valor_total.Location = new System.Drawing.Point(3, 19);
+            this.tela_valor_total.Name = "tela_valor_total";
+            this.tela_valor_total.Size = new System.Drawing.Size(254, 23);
+            this.tela_valor_total.TabIndex = 0;
             // 
             // tableLayoutPanel26
             // 
@@ -1294,23 +1290,6 @@
             this.local_apli.Size = new System.Drawing.Size(321, 23);
             this.local_apli.TabIndex = 0;
             this.local_apli.TextChanged += new System.EventHandler(this.local_apli_TextChanged);
-            // 
-            // groupBox21
-            // 
-            this.groupBox21.Controls.Add(this.tela_valor_total);
-            this.groupBox21.Location = new System.Drawing.Point(638, 3);
-            this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(268, 133);
-            this.groupBox21.TabIndex = 3;
-            this.groupBox21.TabStop = false;
-            this.groupBox21.Text = "groupBox21";
-            // 
-            // tela_valor_total
-            // 
-            this.tela_valor_total.Location = new System.Drawing.Point(41, 39);
-            this.tela_valor_total.Name = "tela_valor_total";
-            this.tela_valor_total.Size = new System.Drawing.Size(186, 23);
-            this.tela_valor_total.TabIndex = 0;
             // 
             // tableLayoutPanel6
             // 
@@ -2029,8 +2008,6 @@
             this.tableLayoutPanel26.ResumeLayout(false);
             this.lc_apli.ResumeLayout(false);
             this.lc_apli.PerformLayout();
-            this.groupBox21.ResumeLayout(false);
-            this.groupBox21.PerformLayout();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -2209,11 +2186,9 @@
         private GroupBox groupBox30;
         private TextBox tela_disco;
         private GroupBox groupBox31;
-        private TextBox tela_valortotal;
+        private TextBox tela_valor_total;
         private TableLayoutPanel tableLayoutPanel26;
         private GroupBox lc_apli;
         private TextBox local_apli;
-        private GroupBox groupBox21;
-        private TextBox tela_valor_total;
     }
 }

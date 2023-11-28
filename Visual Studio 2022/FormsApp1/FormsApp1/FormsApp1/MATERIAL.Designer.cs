@@ -56,6 +56,7 @@
             this.valor_m2.Name = "valor_m2";
             this.valor_m2.Size = new System.Drawing.Size(216, 23);
             this.valor_m2.TabIndex = 10;
+            this.valor_m2.TextChanged += new System.EventHandler(this.valor_m2_TextChanged);
             // 
             // salvar_servico
             // 

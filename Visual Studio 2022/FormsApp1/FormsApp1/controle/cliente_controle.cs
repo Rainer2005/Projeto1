@@ -44,7 +44,20 @@ namespace controle
             return resultado;//retorno o valor
         }
 
-
+        public bool cadastrar_servico(cliente_modelo servico)//passo o objeto usuario
+        {//declaro a variavel da resposta da query
+            bool resultado = false;
+            string sql = "insert into orcamento_porcelanato(servico,valor_m2) " +
+                "values ('" + servico.tela_m2 + "','" + servico.valor_m2 + "')";
+            //chamando minha conexao
+            MySqlConnection sqlCon = con.getConexao();
+            sqlCon.Open();//abrindo o banco
+            MySqlCommand cmd = new MySqlCommand(sql, sqlCon);
+            if (cmd.ExecuteNonQuery() >= 1)//executar o seu sql
+                resultado = true;
+            sqlCon.Close();//fecho a conexao
+            return resultado;//retorno o valor
+        }
 
 
 
