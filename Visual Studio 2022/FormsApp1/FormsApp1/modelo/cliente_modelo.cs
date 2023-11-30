@@ -26,7 +26,7 @@ namespace modelo
         public string tela_valor_total;
 
         // serviço
-        public string servico;
+        public int servico;
         public string valor;
 
 
@@ -50,7 +50,7 @@ namespace modelo
 
             //servico
             servico = null;
-            valor = null;
+            valor_m2 = null;
     }
     }
 }

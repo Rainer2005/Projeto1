@@ -17,11 +17,12 @@ namespace FormsApp1
 
 
 
-    cliente_modelo servico = new cliente_modelo();
-    cliente_controle con = new cliente_controle();
 
     public partial class FRM_SERVICO : Form
     {
+
+    cliente_modelo servico = new cliente_modelo();
+    cliente_controle con = new cliente_controle();
 
         string servico1 = "";
         float valor = 0;
@@ -58,8 +59,9 @@ namespace FormsApp1
 
         private void salvar_servico_Click(object sender, EventArgs e)
         {
-            servico.servico1 = servico1;
-            servico.valor = valor;
+            servico = servico1;
+            servico.servico = Convert.ToInt16(servico);
+            servico.valor = Convert.ToString(valor);
 
             con.cadastrar_orcamento(servico);
             MessageBox.Show("Orçamento Salvo com Sucesso");
