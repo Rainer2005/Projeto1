@@ -78,6 +78,7 @@
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(333, 23);
             this.nome.TabIndex = 3;
+            this.nome.TextChanged += new System.EventHandler(this.nome_TextChanged);
             // 
             // numero
             // 
@@ -149,10 +150,12 @@
             // TXT_CODIGO
             // 
             this.TXT_CODIGO.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TXT_CODIGO.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TXT_CODIGO.Location = new System.Drawing.Point(326, 83);
             this.TXT_CODIGO.Name = "TXT_CODIGO";
             this.TXT_CODIGO.Size = new System.Drawing.Size(333, 23);
             this.TXT_CODIGO.TabIndex = 10;
+            this.TXT_CODIGO.TextChanged += new System.EventHandler(this.TXT_CODIGO_TextChanged);
             // 
             // dataGridView1
             // 

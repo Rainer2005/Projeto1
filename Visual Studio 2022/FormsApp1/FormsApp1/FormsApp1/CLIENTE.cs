@@ -17,6 +17,7 @@ namespace FormsApp1
         int codigo;
         cliente_modelo cliente = new cliente_modelo(); 
         cliente_controle controle = new cliente_controle();
+       
         public CLIENTE()
         {
             InitializeComponent();
@@ -64,6 +65,16 @@ namespace FormsApp1
             cliente.endereco = endereco.Text;
             controle.editar(cliente);
             MessageBox.Show("Cliente editado com Sucesso");
+        }
+
+        private void nome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TXT_CODIGO_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
