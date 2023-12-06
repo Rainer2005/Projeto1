@@ -18,14 +18,12 @@ namespace FormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ORÇAMENTO_SIMPLES SIMPLES = new ORÇAMENTO_SIMPLES();
-            SIMPLES.ShowDialog();
+       
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            AGENDAR AGN = new AGENDAR();
-            AGN.ShowDialog();
+       
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,8 +40,7 @@ namespace FormsApp1
 
         private void button6_Click(object sender, EventArgs e)
         {
-            CONSULTAR_AGENDA AGENDA = new CONSULTAR_AGENDA();
-            AGENDA.ShowDialog();
+      
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -58,6 +55,11 @@ namespace FormsApp1
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

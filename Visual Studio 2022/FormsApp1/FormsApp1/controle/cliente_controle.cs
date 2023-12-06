@@ -47,8 +47,8 @@ namespace controle
         public bool cadastrar_servico(cliente_modelo servico)//passo o objeto usuario
         {//declaro a variavel da resposta da query
             bool resultado = false;
-            string sql = "insert into orcamento_porcelanato(servico,valor_m2) " +
-                "values ('" + servico.tela_m2 + "','" + servico.valor_m2 + "')";
+            string sql = "insert into orcamento_porcelanato(servico,valor_metros2) " +
+                "values ('" + servico.tela_m2 + "','" + servico.valor_metros2 + "')";
             //chamando minha conexao
             MySqlConnection sqlCon = con.getConexao();
             sqlCon.Open();//abrindo o banco
@@ -59,8 +59,7 @@ namespace controle
             return resultado;//retorno o valor
         }
 
-
-
+        
 
 
         public bool excluir(int codigo)

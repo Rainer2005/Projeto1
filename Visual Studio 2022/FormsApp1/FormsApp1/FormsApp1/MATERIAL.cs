@@ -60,8 +60,8 @@ namespace FormsApp1
         private void salvar_servico_Click(object sender, EventArgs e)
         {
             servico = servico1;
-            servico.servico = Convert.ToInt16(servico);
-            servico.valor = Convert.ToString(valor);
+            servico.servico = Convert.ToString(servico);
+            servico.valor_metros2 = Convert.ToString(valor);
 
             con.cadastrar_orcamento(servico);
             MessageBox.Show("Orçamento Salvo com Sucesso");

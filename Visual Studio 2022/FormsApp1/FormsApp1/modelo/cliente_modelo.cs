@@ -26,8 +26,8 @@ namespace modelo
         public string tela_valor_total;
 
         // serviço
-        public int servico;
-        public string valor;
+        public string servico;
+        public string valor_metros2;
 
 
         //construtor da classe modelo usuario
@@ -50,7 +50,7 @@ namespace modelo
 
             //servico
             servico = null;
-            valor_m2 = null;
+            valor_metros2 = null;
     }
     }
 }

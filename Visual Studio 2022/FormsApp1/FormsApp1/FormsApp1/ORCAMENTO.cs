@@ -19,10 +19,11 @@ namespace FormsApp1
 
     public partial class ORCAMENTO : Form
     {
+        float alt_decimal = 0, larg_decimal = 0, vezes_decimal = 0, result_nivelador = 0, total_nivelador = 0,total_nivel = 0;
         float comprimento1 = 0, largura1 = 0, resultado1 = 0; // metros² calculo
         float alturap1 = 0, largurap1 = 0, resultadop1 = 0, altura_porc = 0, larg_porc = 0; // tamanho porcelanato
         float espressura = 0, larg_junta = 0,resultado_rj = 0, resultado_rejunte = 0, resultado_rejunte1 =0,resultado_rejunte2 = 0, resultado_rejunte3 = 0, cr = 0 ,altura_somar = 0, largura_somar = 0; // calculo rejunte
-        float dez = 10, cem = 100;
+        float dez = 10, cem = 100, um = 1;
 
         cliente_modelo orcamento_porcelanato = new cliente_modelo();
         cliente_controle con = new cliente_controle();
@@ -33,15 +34,20 @@ namespace FormsApp1
 
         private void tela_nivelador_TextChanged(object sender, EventArgs e)
         {
-            /*
-            alt_decimal = alt / cem;// convert decimal
-            larg_decimal = larg_porc / cem;//convert decimal
+            
+            alt_decimal = alturap1 / cem;// convert decimal
+            larg_decimal = largurap1 / cem;//convert decimal
             vezes_decimal = alt_decimal * larg_decimal; //soma nivelador
             result_nivelador = um / vezes_decimal; // soma nivelador
             total_nivelador = result_nivelador * 4; // quantidade de nivelador por m2
-            total_nivel = total_nivelador * result;
-            nivelador_total.Text = total_nivel.ToString("#,##", new CultureInfo("pt-BR"));
-            */
+            total_nivel = total_nivelador * resultado1;
+            tela_nivelador.Text = total_nivel.ToString("#,##", new CultureInfo("pt-BR"));
+            
+        }
+
+        private void tela_argamassa_TextChanged(object sender, EventArgs e)
+        {
+            tela_argamassa.Text = Convert.ToString(resultado1 / 4);
         }
 
         private void SALVAR_Click_1(object sender, EventArgs e)

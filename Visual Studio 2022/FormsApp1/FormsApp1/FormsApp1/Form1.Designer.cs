@@ -28,33 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button5 = new System.Windows.Forms.Button();
             this.novo_orçamento3 = new System.Windows.Forms.Button();
             this.CAD_SERVICO = new System.Windows.Forms.Button();
             this.CAD_CLIENTE = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.coluna2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.coluna2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Location = new System.Drawing.Point(1, 59);
-            this.button5.Margin = new System.Windows.Forms.Padding(0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(148, 57);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "AGENDAR";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // novo_orçamento3
             // 
@@ -95,32 +79,6 @@
             this.CAD_CLIENTE.UseVisualStyleBackColor = false;
             this.CAD_CLIENTE.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button7.Location = new System.Drawing.Point(1, 291);
-            this.button7.Margin = new System.Windows.Forms.Padding(0);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(148, 57);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "ORÇAMENTOS";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button6.Location = new System.Drawing.Point(1, 233);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(148, 57);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "AGENDA";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -141,7 +99,7 @@
             // coluna2
             // 
             this.coluna2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.coluna2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.coluna2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Outset;
             this.coluna2.ColumnCount = 2;
             this.coluna2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.coluna2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -164,14 +122,12 @@
             this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.button7, 0, 5);
             this.tableLayoutPanel3.Controls.Add(this.CAD_SERVICO, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.button6, 0, 4);
-            this.tableLayoutPanel3.Controls.Add(this.button5, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.CAD_CLIENTE, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.novo_orçamento3, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.button1, 0, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(1, 1);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(2, 2);
             this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 7;
@@ -182,8 +138,20 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(150, 587);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(150, 585);
             this.tableLayoutPanel3.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.Location = new System.Drawing.Point(1, 59);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(148, 57);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "ORÇAMENTO";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -193,6 +161,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.coluna2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
@@ -201,14 +170,12 @@
         }
 
         #endregion
-        private Button button5;
         private Button novo_orçamento3;
         private Button CAD_SERVICO;
         private Button CAD_CLIENTE;
-        private Button button7;
-        private Button button6;
         private TableLayoutPanel tableLayoutPanel1;
         private TableLayoutPanel coluna2;
         private TableLayoutPanel tableLayoutPanel3;
+        private Button button1;
     }
 }

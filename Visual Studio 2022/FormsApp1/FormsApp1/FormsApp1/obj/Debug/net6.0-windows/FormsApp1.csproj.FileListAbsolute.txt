@@ -77,12 +77,9 @@ C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\aluno\Downloads\Visual Studio 2022-20231002T221346Z-001\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.Properties.Resources.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.csproj.AssemblyReference.cache
-C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.AGENDAR.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.CLIENTE.resources
-C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.CONSULTAR_AGENDA.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.consultar_orçamento.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.Form1.resources
-C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.ORÇAMENTO_SIMPLES.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.Properties.Resources.resources
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.csproj.GenerateResource.cache
 C:\Users\aluno\Documents\GitHub\Projeto1\Visual Studio 2022\FormsApp1\FormsApp1\FormsApp1\obj\Debug\net6.0-windows\FormsApp1.GeneratedMSBuildEditorConfig.editorconfig

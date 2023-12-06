@@ -998,10 +998,10 @@
             // 
             this.tableLayoutPanel24.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel24.ColumnCount = 4;
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel24.Controls.Add(this.SALVAR, 3, 0);
             this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel24.Location = new System.Drawing.Point(0, 591);
@@ -1009,17 +1009,16 @@
             this.tableLayoutPanel24.Name = "tableLayoutPanel24";
             this.tableLayoutPanel24.RowCount = 1;
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel24.Size = new System.Drawing.Size(915, 47);
             this.tableLayoutPanel24.TabIndex = 1;
             // 
             // SALVAR
             // 
             this.SALVAR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SALVAR.Location = new System.Drawing.Point(684, 0);
+            this.SALVAR.Location = new System.Drawing.Point(822, 0);
             this.SALVAR.Margin = new System.Windows.Forms.Padding(0);
             this.SALVAR.Name = "SALVAR";
-            this.SALVAR.Size = new System.Drawing.Size(231, 47);
+            this.SALVAR.Size = new System.Drawing.Size(93, 47);
             this.SALVAR.TabIndex = 3;
             this.SALVAR.Text = "SALVAR";
             this.SALVAR.UseVisualStyleBackColor = true;
@@ -1132,6 +1131,7 @@
             this.tela_argamassa.Name = "tela_argamassa";
             this.tela_argamassa.Size = new System.Drawing.Size(254, 23);
             this.tela_argamassa.TabIndex = 0;
+            this.tela_argamassa.TextChanged += new System.EventHandler(this.tela_argamassa_TextChanged);
             // 
             // groupBox26
             // 
