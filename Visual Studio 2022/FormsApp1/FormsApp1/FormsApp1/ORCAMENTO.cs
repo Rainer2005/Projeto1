@@ -25,6 +25,21 @@ namespace FormsApp1
         float espressura = 0, larg_junta = 0,resultado_rj = 0, resultado_rejunte = 0, resultado_rejunte1 =0,resultado_rejunte2 = 0, resultado_rejunte3 = 0, cr = 0 ,altura_somar = 0, largura_somar = 0; // calculo rejunte
         float dez = 10, cem = 100, um = 1;
 
+        private void arg_table_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void arg_tipo_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton23_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
         cliente_modelo orcamento_porcelanato = new cliente_modelo();
         cliente_controle con = new cliente_controle();
         private void ORCAMENTO_Load(object sender, EventArgs e)

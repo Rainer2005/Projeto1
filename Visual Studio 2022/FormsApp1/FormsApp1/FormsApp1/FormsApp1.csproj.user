@@ -10,9 +10,6 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MATERIAL.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="MURO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,6 +20,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PINTURA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="servico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TelaFinal.cs">

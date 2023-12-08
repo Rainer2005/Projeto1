@@ -445,7 +445,7 @@
             this.resultadom2.Name = "resultadom2";
             this.resultadom2.Size = new System.Drawing.Size(115, 23);
             this.resultadom2.TabIndex = 2;
-            this.resultadom2.TextChanged += new System.EventHandler(this.resultadom2_TextChanged_1);
+            this.resultadom2.TextChanged += new System.EventHandler(this.tela_argamassa_TextChanged);
             // 
             // largura
             // 
@@ -760,7 +760,7 @@
             this.larg_peca.Name = "larg_peca";
             this.larg_peca.Size = new System.Drawing.Size(100, 23);
             this.larg_peca.TabIndex = 1;
-            this.larg_peca.TextChanged += new System.EventHandler(this.larg_peca_TextChanged);
+            this.larg_peca.TextChanged += new System.EventHandler(this.tela_porcelanato_TextChanged);
             // 
             // alt_peca
             // 
@@ -864,6 +864,7 @@
             this.arg_tipo.TabIndex = 1;
             this.arg_tipo.TabStop = false;
             this.arg_tipo.Text = "Argamassa";
+            this.arg_tipo.Enter += new System.EventHandler(this.arg_tipo_Enter);
             // 
             // arg_table
             // 
@@ -885,6 +886,8 @@
             this.arg_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.arg_table.Size = new System.Drawing.Size(210, 55);
             this.arg_table.TabIndex = 0;
+            this.arg_table.TabIndexChanged += new System.EventHandler(this.tela_tipoarg_TextChanged);
+            this.arg_table.Paint += new System.Windows.Forms.PaintEventHandler(this.arg_table_Paint);
             // 
             // radioButton21
             // 
@@ -921,6 +924,7 @@
             this.radioButton23.TabStop = true;
             this.radioButton23.Text = "ACIII";
             this.radioButton23.UseVisualStyleBackColor = true;
+            this.radioButton23.CheckedChanged += new System.EventHandler(this.radioButton23_CheckedChanged);
             // 
             // groupBox22
             // 
@@ -1131,7 +1135,7 @@
             this.tela_argamassa.Name = "tela_argamassa";
             this.tela_argamassa.Size = new System.Drawing.Size(254, 23);
             this.tela_argamassa.TabIndex = 0;
-            this.tela_argamassa.TextChanged += new System.EventHandler(this.tela_argamassa_TextChanged);
+            this.tela_argamassa.TextChanged += new System.EventHandler(this.resultadom2_TextChanged_1);
             // 
             // groupBox26
             // 

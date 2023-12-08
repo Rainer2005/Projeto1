@@ -26,7 +26,7 @@ namespace modelo
         public string tela_valor_total;
 
         // serviço
-        public string servico;
+        TextReader servico;
         public string valor_metros2;
 
 
@@ -52,5 +52,16 @@ namespace modelo
             servico = null;
             valor_metros2 = null;
     }
+
+        public static implicit operator cliente_modelo(string v)
+        {
+            throw new NotImplementedException();
+            
+        }
+
+        public static implicit operator cliente_modelo(TextReader v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

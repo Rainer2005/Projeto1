@@ -34,8 +34,9 @@ namespace FormsApp1
 
         private void button8_Click(object sender, EventArgs e)
         {
-            FRM_SERVICO MTR = new FRM_SERVICO();
-            MTR.ShowDialog();
+          servico adc = new servico();
+            adc.ShowDialog();
+
         }
 
         private void button6_Click(object sender, EventArgs e)
